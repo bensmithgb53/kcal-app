@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary</title>
+    <style>
+        body { background-color: #000; color: white; font-family: -apple-system, sans-serif; padding: 20px; padding-bottom: 80px; }
+        h1 { font-size: 28px; margin-bottom: 20px; }
+        .entry { background: #1c1c1e; padding: 15px; border-radius: 12px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; }
+        .entry h4 { margin: 0 0 5px 0; font-weight: 500; }
+        .entry p { margin: 0; color: #8e8e93; font-size: 13px; }
+        .kcal-badge { font-weight: bold; color: #2ed158; }
+        .bottom-nav { position: fixed; bottom: 0; left: 0; width: 100%; background: #161616; border-top: 1px solid #2c2c2e; display: flex; justify-content: space-around; padding: 12px 0 25px 0; }
+        .nav-item { text-align: center; color: #8e8e93; font-size: 10px; text-decoration: none; }
+        .nav-item.active { color: #2ed158; }
+        .nav-icon { font-size: 22px; display: block; margin-bottom: 4px; }
+    </style>
+</head>
+<body>
+
+    <h1>Food Diary</h1>
+
+    {% if not log %}
+        <div style="text-align:center; color:#555; margin-top:50px;">No food added yet.</div>
+    {% else %}
+        {% for item in log %}
+        <div class="entry">
+            <div>
+                <h4>{{ item.name }}</h4>
+                <p>{{ item.label }} • {{ item.meal }}</p>
+            </div>
+            <div class="kcal-badge">{{ item.kcal }} kcal</div>
+        </div>
+        {% endfor %}
+    {% endif %}
+
+    <div class="bottom-nav">
+        <a href="/home_reset" class="nav-item"><span class="nav-icon">🏠</span>Home</a>
+        <a href="/diary" class="nav-item active"><span class="nav-icon">📖</span>Diary</a>
+        <a href="/profile" class="nav-item"><span class="nav-icon">👤</span>Profile</a>
+    </div>
+
+</body>
+</html>
+

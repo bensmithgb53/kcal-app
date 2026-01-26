@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        body { background-color: #000; color: white; font-family: -apple-system, sans-serif; padding: 20px; padding-bottom: 80px; }
+        .form-group { margin-bottom: 20px; }
+        label { display: block; color: #8e8e93; font-size: 14px; margin-bottom: 8px; }
+        input, select { width: 100%; background: #1c1c1e; border: none; color: white; padding: 12px; border-radius: 8px; font-size: 16px; box-sizing: border-box; }
+        .save-btn { width: 100%; background: #2ed158; color: black; font-weight: bold; padding: 15px; border: none; border-radius: 12px; font-size: 18px; margin-top: 20px; cursor: pointer; }
+        h1 { font-size: 28px; margin-bottom: 30px; }
+        .bottom-nav { position: fixed; bottom: 0; left: 0; width: 100%; background: #161616; border-top: 1px solid #2c2c2e; display: flex; justify-content: space-around; padding: 12px 0 25px 0; }
+        .nav-item { text-align: center; color: #8e8e93; font-size: 10px; text-decoration: none; }
+        .nav-item.active { color: #2ed158; }
+        .nav-icon { font-size: 22px; display: block; margin-bottom: 4px; }
+        .alert { padding: 15px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; }
+        .alert-error { background-color: #ff453a; color: white; border: 1px solid red; }
+        .alert-success { background-color: #30d158; color: black; }
+    </style>
+</head>
+<body>
+
+    <h1>My Profile</h1>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        {% for category, message in messages %}
+        <div class="alert alert-{{ category }}">
+            {{ message }}
+        </div>
+        {% endfor %}
+    {% endif %}
+    {% endwith %}
+
+    <form method="POST">
+        <div class="form-group">
+            <label>Current Weight (kg)</label>
+            <input type="number" name="weight" step="0.1" value="{{ stats.get('w', '') }}" required placeholder="e.g. 75">
+        </div>
+
+        <div class="form-group">
+            <label>Height (cm)</label>
+            <input type="number" name="height" value="{{ stats.get('h', '') }}" required placeholder="e.g. 180">
+        </div>
+
+        <div class="form-group">
+            <label>Age</label>
+            <input type="number" name="age" value="{{ stats.get('a', '') }}" required placeholder="e.g. 30">
+        </div>
+
+        <div class="form-group">
+            <label>Gender</label>
+            <select name="gender">
+                <option value="male" {% if stats.get('g')=='male' %}selected{% endif %}>Male</option>
+                <option value="female" {% if stats.get('g')=='female' %}selected{% endif %}>Female</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Activity Level</label>
+            <select name="activity">
+                <option value="sedentary" {% if stats.get('act')=='sedentary' %}selected{% endif %}>Sedentary (Office Job)</option>
+                <option value="light" {% if stats.get('act')=='light' %}selected{% endif %}>Light Exercise (1-2 days)</option>
+                <option value="moderate" {% if stats.get('act')=='moderate' %}selected{% endif %}>Moderate (3-5 days)</option>
+                <option value="active" {% if stats.get('act')=='active' %}selected{% endif %}>Very Active</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Goal</label>
+            <select name="goal">
+                <option value="lose" {% if stats.get('goal')=='lose' %}selected{% endif %}>Lose Weight (-500 kcal)</option>
+                <option value="maintain" {% if stats.get('goal')=='maintain' %}selected{% endif %}>Maintain Weight</option>
+                <option value="gain" {% if stats.get('goal')=='gain' %}selected{% endif %}>Gain Muscle (+500 kcal)</option>
+            </select>
+        </div>
+
+        <button type="submit" class="save-btn">Save & Calculate</button>
+    </form>
+
+    <div class="bottom-nav">
+        <a href="/home_reset" class="nav-item"><span class="nav-icon">🏠</span>Home</a>
+        <a href="/diary" class="nav-item"><span class="nav-icon">📖</span>Diary</a>
+        <a href="/profile" class="nav-item active"><span class="nav-icon">👤</span>Profile</a>
+    </div>
+
+</body>
+</html>
+

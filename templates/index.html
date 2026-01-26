@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Nutrition App</title>
+    <style>
+        :root { --bg-color: #000000; --card-bg: #1c1c1e; --primary: #2ed158; --text-main: #ffffff; --text-sub: #8e8e93; --danger: #ff453a; --input-bg: #2c2c2e; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Roboto, Helvetica, Arial, sans-serif; background-color: var(--bg-color); color: var(--text-main); margin: 0; padding: 0; padding-bottom: 90px; -webkit-font-smoothing: antialiased; }
+        .container { padding: 20px; max-width: 600px; margin: 0 auto; }
+        h2 { font-size: 22px; font-weight: 700; margin: 0; }
+        h3 { font-size: 18px; font-weight: 600; margin: 10px 0; }
+        .text-sub { color: var(--text-sub); font-size: 14px; }
+        
+        /* Dashboard Ring */
+        .dashboard-ring-container { display: flex; justify-content: center; margin: 30px 0 40px 0; }
+        .progress-circle { width: 220px; height: 110px; border-top-left-radius: 110px; border-top-right-radius: 110px; background: linear-gradient(to right, #2c2c2e, var(--primary)); position: relative; display: flex; justify-content: center; align-items: flex-end; margin-bottom: 10px; overflow: hidden; }
+        .progress-circle::after { content: ""; width: 190px; height: 95px; background: var(--bg-color); border-top-left-radius: 95px; border-top-right-radius: 95px; position: absolute; bottom: 0; }
+        .dashboard-stats { text-align: center; position: relative; z-index: 10; top: -10px; }
+        .big-number { font-size: 42px; font-weight: 800; line-height: 1; }
+        
+        /* Standard List Cards (Dashboard) */
+        .card { background: var(--card-bg); border-radius: 12px; padding: 12px 16px; margin-bottom: 8px; display: flex; align-items: center; justify-content: space-between; }
+        .food-info h4 { margin: 0 0 4px 0; font-size: 15px; font-weight: 500; }
+        .food-info p { margin: 0; font-size: 13px; color: var(--text-sub); }
+        .food-kcal { font-weight: 600; font-size: 15px; }
+
+        /* --- NEW GRID STYLES (SEARCH RESULTS) --- */
+        .results-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two equal columns */
+            gap: 15px; /* Space between cards */
+            margin-bottom: 20px;
+        }
+        .grid-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px 10px;
+            display: flex;
+            flex-direction: column; /* Stack vertically */
+            align-items: center; /* Center horizontally */
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+            height: 100%; 
+            box-sizing: border-box;
+        }
+        .grid-card:active { transform: scale(0.96); background-color: #333; }
+        .grid-card img {
+            width: 100px; height: 100px; object-fit: contain;
+            margin-bottom: 12px; background: white; border-radius: 8px; padding: 5px;
+        }
+        .grid-card h4 {
+            font-size: 14px; font-weight: 500; margin: 0; line-height: 1.4; color: white;
+            display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+        }
+
+        /* Search Bar */
+        .search-wrapper { position: relative; margin-bottom: 25px; }
+        .search-input { width: 100%; background: var(--input-bg); border: none; padding: 14px 45px 14px 15px; border-radius: 12px; color: white; font-size: 16px; box-sizing: border-box; outline: none; }
+        .search-icon { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); color: var(--primary); background: none; border: none; font-size: 18px; cursor: pointer; }
+        
+        /* Macros Row */
+        .macro-row { display: flex; justify-content: space-around; margin: 20px 0; text-align: center; }
+        .macro-item span { display: block; font-size: 12px; color: var(--text-sub); margin-top: 5px; }
+        .macro-item b { font-size: 18px; }
+
+        /* Details Page Stuff */
+        .detail-header { text-align: center; margin-bottom: 25px; }
+        .detail-img { width: 140px; height: 140px; border-radius: 20px; object-fit: contain; margin-bottom: 15px; background:white; }
+        
+        .serving-list { margin-bottom: 30px; }
+        .serving-option { display: flex; justify-content: space-between; align-items: center; background: var(--card-bg); padding: 16px; border-bottom: 1px solid #2c2c2e; cursor: pointer; }
+        .serving-option:first-child { border-top-left-radius: 12px; border-top-right-radius: 12px; }
+        .serving-option:last-child { border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; border-bottom: none; }
+        .radio-circle { width: 20px; height: 20px; border-radius: 50%; border: 2px solid var(--text-sub); margin-right: 15px; display: flex; align-items: center; justify-content: center; }
+        input[type="radio"]:checked + .radio-circle { border-color: var(--primary); }
+        input[type="radio"]:checked + .radio-circle::after { content: ""; width: 10px; height: 10px; background: var(--primary); border-radius: 50%; }
+        input[type="radio"] { display: none; }
+        
+        .stepper { display: flex; align-items: center; background: #2c2c2e; border-radius: 8px; padding: 2px; margin-left: auto; }
+        .step-btn { width: 28px; height: 28px; background: none; border: none; color: var(--primary); font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+        .step-val { font-size: 14px; font-weight: 600; color: white; margin: 0 6px; width: 30px; text-align: center; }
+        .custom-qty { background: var(--card-bg); border-radius: 12px; padding: 15px; margin-top: 10px; display: flex; align-items: center; justify-content: space-between; }
+        .custom-qty input { background: none; border: none; color: white; font-size: 16px; width: 60px; text-align: right; outline: none; border-bottom: 1px solid var(--text-sub); }
+        
+        .meal-section { margin-bottom: 25px; }
+        .meal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+        .add-btn-small { width: 30px; height: 30px; border-radius: 50%; background: var(--input-bg); color: var(--primary); font-size: 20px; display: flex; align-items: center; justify-content: center; border: none; cursor: pointer; }
+        
+        .meal-grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; margin-top: 20px; }
+        .meal-btn { background: var(--card-bg); border: none; border-radius: 12px; padding: 15px 5px; color: var(--text-sub); display: flex; flex-direction: column; align-items: center; cursor: pointer; transition: background 0.2s; }
+        .meal-btn:hover { background: #3a3a3c; }
+        .meal-btn:active { transform: scale(0.95); }
+        .meal-btn-icon { width: 32px; height: 32px; border-radius: 50%; background: #333; margin-bottom: 8px; display: flex; align-items: center; justify-content: center; font-size: 16px; }
+        .add-circle { width: 24px; height: 24px; background: #00d084; border-radius: 50%; color: black; display: flex; align-items: center; justify-content: center; font-size: 18px; margin-top: 5px; }
+        
+        .bottom-nav { position: fixed; bottom: 0; left: 0; width: 100%; background: #161616; border-top: 1px solid #2c2c2e; display: flex; justify-content: space-around; padding: 12px 0 25px 0; z-index: 100; }
+        .nav-item { text-align: center; color: var(--text-sub); font-size: 10px; text-decoration: none; }
+        .nav-item.active { color: var(--primary); }
+        .nav-icon { font-size: 22px; margin-bottom: 4px; display: block; }
+        .alert { padding: 10px; border-radius: 8px; background: #333; color: white; margin-bottom: 15px; font-size: 14px; text-align: center; }
+    </style>
+    
+    <script>
+        let BASE_KCAL=0, BASE_P=0, BASE_C=0, BASE_F=0;
+        function initBaseValues(k, p, c, f) { BASE_KCAL=k; BASE_P=p; BASE_C=c; BASE_F=f; }
+        function calculateLive(grams) {
+            document.getElementById('display_weight').innerText = "Weight: " + (grams || 0) + "g";
+            let factor = (parseFloat(grams) || 0) / 100;
+            document.getElementById('disp_kcal').innerText = Math.round(BASE_KCAL * factor);
+            document.getElementById('disp_carbs').innerText = (BASE_C * factor).toFixed(1) + " g";
+            document.getElementById('disp_fat').innerText = (BASE_F * factor).toFixed(1) + " g";
+            document.getElementById('disp_protein').innerText = (BASE_P * factor).toFixed(1) + " g";
+        }
+        function setCustomMode() {
+            let input = document.getElementById('custom_input');
+            calculateLive(input.value || 0);
+        }
+        function updateQty(change) {
+            let qtyInput = document.getElementById('qtyInput');
+            let current = parseFloat(qtyInput.value) || 1;
+            let newVal = current + change;
+            if (newVal < 0.5) newVal = 0.5;
+            qtyInput.value = newVal;
+            document.getElementById('formAction').value = 'calculate_preview';
+            document.getElementById('mainForm').submit();
+        }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+            <div class="alert" style="border:1px solid {{ 'var(--primary)' if category=='success' else 'var(--danger)' }};">
+                {{ message }}
+            </div>
+            {% endfor %}
+        {% endif %}
+        {% endwith %}
+
+        {% if not results and not selected_item %}
+            <div class="dashboard-ring-container">
+                <div class="dashboard-stats">
+                    <div class="text-sub" style="margin-bottom:5px;">Remaining</div>
+                    <div class="big-number">{{ user_goals.kcal - totals.kcal }}</div>
+                    <div class="text-sub" style="margin-top:5px;"> / {{ user_goals.kcal }} Kcal</div>
+                </div>
+            </div>
+            
+            <div class="macro-row" style="margin-bottom: 30px;">
+                <div class="macro-item"><b style="color:var(--primary);">{{ totals.carbs }} / {{ user_goals.carbs }}g</b><span>Carbs</span></div>
+                <div class="macro-item"><b style="color:#FF9F0A;">{{ totals.fat }} / {{ user_goals.fat }}g</b><span>Fat</span></div>
+                <div class="macro-item"><b style="color:#0A84FF;">{{ totals.protein }} / {{ user_goals.protein }}g</b><span>Protein</span></div>
+            </div>
+
+            <form method="POST">
+                <input type="hidden" name="action" value="search">
+                <div class="search-wrapper">
+                    <input type="text" name="query" class="search-input" placeholder="Search for food..." autocomplete="off">
+                    <button type="submit" class="search-icon">🔍</button>
+                </div>
+            </form>
+
+            {% for meal in ['Breakfast', 'Lunch', 'Dinner', 'Snack'] %}
+            <div class="meal-section">
+                <div class="meal-header">
+                    <h3>{{ meal }}</h3>
+                    <button class="add-btn-small" onclick="document.querySelector('.search-input').focus();">+</button>
+                </div>
+                {% if grouped_log[meal] %}
+                    {% for item in grouped_log[meal] %}
+                    <div class="card">
+                        <div class="food-info">
+                            <h4>{{ item.name }}</h4>
+                            <p>{{ item.label }}</p>
+                        </div>
+                        <div style="text-align:right;">
+                            <div class="food-kcal">{{ item.kcal }}</div>
+                            <form method="POST" style="display:inline;">
+                                <input type="hidden" name="action" value="remove_item">
+                                <input type="hidden" name="log_index" value="{{ item.original_index }}">
+                                <button type="submit" style="background:none; border:none; color:#555; font-size:12px; cursor:pointer;">x</button>
+                            </form>
+                        </div>
+                    </div>
+                    {% endfor %}
+                {% else %}
+                    <div style="padding: 15px; border:1px dashed #333; border-radius:12px; color:#555; text-align:center; font-size:13px;">No food logged</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+
+            <div style="text-align:center; margin-top:40px;">
+                <form method="POST" onsubmit="return confirm('Reset all?');">
+                    <input type="hidden" name="action" value="clear_log">
+                    <button style="background:none; border:none; color:var(--danger); cursor:pointer;">Clear Day</button>
+                </form>
+            </div>
+        {% endif %}
+
+        {% if results and not selected_item %}
+            <div style="display:flex; align-items:center; margin-bottom:20px;">
+                <a href="/home_reset" style="color:white; font-size:24px; text-decoration:none; margin-right:15px;">←</a>
+                <h2>Add Food</h2>
+            </div>
+            
+            <div class="results-grid">
+                {% for item in results %}
+                <div class="grid-card" onclick="this.querySelector('form').submit();">
+                    <img src="{{ item.img }}">
+                    <h4>{{ item.name }}</h4>
+                    <form method="POST" style="display:none;">
+                        <input type="hidden" name="action" value="select_item">
+                        <input type="hidden" name="item_idx" value="{{ loop.index0 }}">
+                    </form>
+                </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        {% if selected_item %}
+            <div style="display:flex; justify-content:space-between; margin-bottom:10px;">
+                <a href="/home_reset" style="background:none; border:none; color:white; font-size:24px; cursor:pointer; text-decoration:none;">←</a>
+                
+                <span class="text-sub">Details</span>
+                <div style="width:24px;"></div>
+            </div>
+
+            <div class="detail-header">
+                {% if selected_item.img %}
+                <img src="{{ selected_item.img }}" class="detail-img">
+                {% endif %}
+                <h2 style="margin-bottom:5px;">{{ selected_item.name }}</h2>
+                <div class="text-sub">Generic Food</div>
+            </div>
+
+            {% if final %}
+            <script>initBaseValues({{ final.base_per_100 }}, {{ final.base_p }}, {{ final.base_c }}, {{ final.base_f }});</script>
+            <div style="text-align:center;">
+                <span class="big-number" style="font-size:36px;">
+                    <span id="disp_kcal">{{ final.kcal }}</span>
+                </span>
+                <span class="text-sub"> kcal</span>
+                {% if final.grams_total %}
+                <div style="margin-top:5px; color:var(--text-sub); font-size:14px;">
+                    <span id="display_weight">Weight: {{ final.grams_total }}g</span>
+                    {% if final.base_per_100 %}
+                    <span style="opacity:0.6; font-size:12px; margin-left:8px;">(Base: {{ final.base_per_100 }}kcal/100g)</span>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+            <div class="macro-row">
+                <div class="macro-item"><b id="disp_carbs">{{ final.carbs }} g</b><span>Carbs</span></div>
+                <div class="macro-item"><b id="disp_fat">{{ final.fat }} g</b><span>Fat</span></div>
+                <div class="macro-item"><b id="disp_protein">{{ final.protein }} g</b><span>Protein</span></div>
+            </div>
+            {% endif %}
+
+            {% if product_data %}
+            <form method="POST" id="mainForm">
+                <input type="hidden" name="action" id="formAction" value="add_smart">
+                <input type="hidden" name="quantity" id="qtyInput" value="{{ cur_qty }}">
+
+                <h3 class="text-sub" style="font-size:14px; margin-bottom:10px; text-transform:uppercase;">Serving Size</h3>
+                
+                <div class="serving-list">
+                    {% for s in product_data.servings %}
+                    <label class="serving-option">
+                        <div style="display:flex; align-items:center; flex-grow:1;">
+                            <input type="radio" name="selection_key" value="{{ loop.index0 }}" 
+                                   onchange="document.getElementById('qtyInput').value='1'; document.getElementById('formAction').value='calculate_preview'; this.form.submit();"
+                                   onclick="document.getElementById('custom_input').value='';" 
+                                   {% if sel_key|string == loop.index0|string %}checked{% endif %}>
+                            <div class="radio-circle"></div>
+                            <span>
+                                {{ s.label }}
+                                {% if s.label.lower() != (s.grams|int ~ 'g') and (s.grams|int ~ 'g') not in s.label.lower() %}({{ s.grams }}g){% endif %}
+                            </span>
+                        </div>
+                        {% if sel_key|string == loop.index0|string %}
+                        <div class="stepper" onclick="event.preventDefault();">
+                            <button type="button" class="step-btn" onclick="updateQty(-0.5)">-</button>
+                            <span class="step-val">{{ cur_qty }}</span>
+                            <button type="button" class="step-btn" onclick="updateQty(0.5)">+</button>
+                        </div>
+                        {% endif %}
+                    </label>
+                    {% endfor %}
+
+                    <label class="serving-option">
+                        <div style="display:flex; align-items:center;">
+                            <input type="radio" name="selection_key" value="custom" id="modeCustom" {% if sel_key == 'custom' %}checked{% endif %} onclick="setCustomMode();">
+                            <div class="radio-circle"></div>
+                            <span>Custom Weight</span>
+                        </div>
+                        <div class="custom-qty">
+                            <input type="number" id="custom_input" name="custom_grams" placeholder="100" value="{{ cur_grams }}" onfocus="document.getElementById('modeCustom').checked=true; setCustomMode();" oninput="calculateLive(this.value);" onkeyup="if(event.key === 'Enter') { document.getElementById('formAction').value='calculate_preview'; this.form.submit(); }">
+                            <span style="color:#888;">g</span>
+                        </div>
+                    </label>
+                </div>
+
+                <h3 class="text-sub" style="font-size:14px; margin-bottom:10px; text-transform:uppercase;">Add to Meal Occasion</h3>
+                
+                <div class="meal-grid">
+                    {% for m in ['Breakfast', 'Lunch', 'Dinner', 'Snack'] %}
+                    <button type="submit" name="meal_target" value="{{ m }}" class="meal-btn" onclick="document.getElementById('formAction').value='add_smart';">
+                        <div class="meal-btn-icon" style="color: {{ '#FF9F0A' if m=='Breakfast' else '#30D158' if m=='Lunch' else '#0A84FF' if m=='Dinner' else '#BF5AF2' }}">{% if m=='Breakfast' %}☀{% elif m=='Lunch' %}🥪{% elif m=='Dinner' %}🌙{% else %}🍎{% endif %}</div>
+                        <span style="font-size:12px;">{{ m }}</span>
+                        <div class="add-circle">+</div>
+                    </button>
+                    {% endfor %}
+                </div>
+            </form>
+            {% endif %}
+        {% endif %}
+
+    </div>
+
+    <div class="bottom-nav">
+        <a href="/home_reset" class="nav-item active"><span class="nav-icon">🏠</span>Home</a>
+        <a href="/diary" class="nav-item"><span class="nav-icon">📖</span>Diary</a>
+        <a href="/profile" class="nav-item"><span class="nav-icon">👤</span>Profile</a>
+    </div>
+
+</body>
+</html>
+
