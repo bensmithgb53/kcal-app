@@ -1,0 +1,936 @@
+
+--------- beginning of system
+--------- beginning of main
+FreecessController       D  com.nutratech.app.android(10478) is important[12]
+VRI[Bottom...y]@b69a415  I  ViewPostIme pointer 0
+VRI[Bottom...y]@b69a415  I  call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[BottomNavActivity]@b69a415
+SurfaceFlinger           I  [com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806] setFrameRateCategory: HighHint
+LayerHistory             I  com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806 voted ExplicitCategory with category: HighHint
+VRI[MainAc...y]@693e7e0  I  onDisplayChanged oldDisplayState=2 newDisplayState=2
+VRI[HomeSc...y]@11f4549  I  onDisplayChanged oldDisplayState=2 newDisplayState=2
+VRI[LoginV...r]@f3d4625  I  onDisplayChanged oldDisplayState=2 newDisplayState=2
+VRI[Bottom...y]@b69a415  I  onDisplayChanged oldDisplayState=2 newDisplayState=2
+VRI[Bottom...y]@b69a415  I  ViewPostIme pointer 1
+WindowOnBackDispatcher   W  OnBackInvokedCallback is not enabled for the application.
+                            Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+System.out               I  frag prints, stack: 0, activeFrags: 1
+System.out               I  frag prints, Fragment: androidx.navigation.fragment.NavHostFragment, isAdded: true, isVisible: true
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+NC_API                   D  Headers:
+NC_API                   D  accept-language: [en_GB]
+NC_API                   D  authorization: [101675e9-2c93-4064-b971-e2be53462188]
+NC_API                   D  user-agent: [Nutracheck.android.phone]
+NC_API                   D  x-api-key: [14235533-2dcd-4c42-8a7d-84c5569738bd]
+NC_API                   D  x-app-version: [12.7.0 20182]
+NC_API                   D  x-local-timestamp: [2026-01-29T05:12:35.486Z]
+NC_API                   D  x-os-version: [35]
+NC_API                   D  x-theme: [dark]
+NC_API                   D  Headers:
+NC_API                   D  connection: [keep-alive]
+NC_API                   D  content-disposition: [inline]
+NC_API                   D  content-language: [und]
+NC_API                   D  content-type: [application/json;charset=UTF-8]
+NC_API                   D  date: [Thu, 29 Jan 2026 05:12:34 GMT]
+NC_API                   D  set-cookie: [JSESSIONID=7FF5A51558CCCEF421B5A018525A202E; Path=/; HttpOnly]
+NC_API                   D  transfer-encoding: [chunked]
+NC_API                   D  Body:
+NC_API                   D  {"products":[],"exercises":[]}
+NC_API                   D  Headers:
+NC_API                   D  accept-language: [en_GB]
+NC_API                   D  authorization: [101675e9-2c93-4064-b971-e2be53462188]
+NC_API                   D  user-agent: [Nutracheck.android.phone]
+NC_API                   D  x-api-key: [14235533-2dcd-4c42-8a7d-84c5569738bd]
+NC_API                   D  x-app-version: [12.7.0 20182]
+NC_API                   D  x-local-timestamp: [2026-01-29T05:12:35.748Z]
+NC_API                   D  x-os-version: [35]
+NC_API                   D  x-theme: [dark]
+NC_API                   D  Headers:
+NC_API                   D  cache-control: [private, max-age=0]
+NC_API                   D  connection: [keep-alive]
+NC_API                   D  content-language: [und]
+NC_API                   D  content-type: [application/json;charset=UTF-8]
+NC_API                   D  date: [Thu, 29 Jan 2026 05:12:34 GMT]
+NC_API                   D  etag: [A401E168A9961486B23039F5B9509182]
+NC_API                   D  if-none-match: [A401E168A9961486B23039F5B9509182]
+NC_API                   D  server: [nutracheck]
+NC_API                   D  set-cookie: [JSESSIONID=E0FE1FD2BF76982D55A751FB4DCCA9F3; Path=/; HttpOnly]
+NC_API                   D  Body:
+NC_API                   D  {"accountStatus":"freeLite","entries":[{"occasion":3,"productID":132144,"description":"Red Peppers, Raw","source":"nutracheck","isCopyable":true,"timeEaten":"2026-01-29 05:09","serving":"1\/2 Medium pepper (80g)","isDeletable":true,"isEditable":true,"protein":"0.6","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/44\/132144.png","fat":"0.2","id":3569422319,"isFavourite":false,"servingSize":{"measure":"g","size":80.0},"carbohydrates":"3.4","alcohol":"0.0","isFavoritable":true,"image":{"imageUrlLarge":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/large\/44\/132144.webp","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/44\/132144.png","imageUrlSmall":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/44\/132144.webp","imageUrlSmallCropped":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/cropped\/44\/132144.webp"},"fiveADay":1.0,"sugars":"3.4","salt":"0.02","isExercise":false,"saturatedFat":"0.1","sodium":"0","kcal":"17","fibre":"1.0"},{"occasion":3,"productID":86047,"description":"Reduced Sugar Jam","source":"nutracheck","isCopyable":true,"timeEaten":"2026-01-28 09:30","serving":"Level teaspoon (8g)","isDeletable":true,"isEditable":true,"protein":"0.0","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/47\/86047.png","fat":"0.0","id":3567109213,"isFavourite":false,"servingSize":{"measure":"g","size":8.0},"carbohydrates":"2.5","alcohol":"0.0","isFavoritable":true,"image":{"imageUrlLarge":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/large\/47\/86047.webp","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/47\/86047.png","imageUrlSmall":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/47\/86047.webp","imageUrlSmallCropped":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/cropped\/47\/86047.webp"},"fiveADay":0.0,"sugars":"2.5","salt":"0.00","isExercise":false,"saturatedFat":"0.0","sodium":"0","kcal":"10","fibre":"0.1"}],"status":{"accountStatus":"freeLite","accountStatusEnum":"FREE_LITE","dateExpiry":"2023-05-24T00:00:00.000Z","dateRegistration":"2023-05-17T12:13:52.000Z","dateSinceLastUse":"2026-01-29T05:07:37.340Z","daysSinceLastUse":0,"debugIdentifier":"fb6dcfb4-91d9-48b6-8da3-b408b0341013"},"products":[{"image":{"imageUrlLarge":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/large\/08\/86108.webp","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/08\/86108.png","imageUrlSmall":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/08\/86108.webp","imageUrlSmallCropped":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/cropped\/08\/86108.webp"},"mealID":0,"productID":86108,"imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/08\/86108.png","description":"Tomatoes, Fresh"},{"image":{"imageUrlLarge":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/large\/44\/132144.webp","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/44\/132144.png","imageUrlSmall":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/44\/132144.webp","imageUrlSmallCropped":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/cropped\/44\/132144.webp"},"mealID":0,"productID":132144,"imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/44\/132144.png","description":"Red Peppers, Raw"},{"image":{"imageUrlLarge":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/large\/34\/355034.webp","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/34\/355034.png","imageUrlSmall":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/34\/355034.webp"
+NetdEventL...nerService  D  DNS Requested by 143, 10478(com.nutratech.app.android), SUCCESS, 2ms
+NetdEventL...nerService  D  DNS Requested by 143, 10478(com.nutratech.app.android), SUCCESS, 1ms
+LayerHistory             I  com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806 Max (can't resolve refresh rate)
+VRI[Bottom...y]@b69a415  I  ViewPostIme pointer 0
+VRI[Bottom...y]@b69a415  I  ViewPostIme pointer 1
+System.out               I  frag prints, stack: 0, activeFrags: 1
+System.out               I  frag prints, Fragment: androidx.navigation.fragment.NavHostFragment, isAdded: true, isVisible: true
+ScrollView               D  initGoToTop
+ResourcesCompat          W  Failed to inflate ColorStateList, leaving it to the framework (Ask Gemini)
+                            java.lang.UnsupportedOperationException: Failed to resolve attribute at index 0: TypedValue{t=0x2/d=0x7f0400e2 a=-1}, theme={InheritanceMap=[id=0x7f140009com.nutratech.app.android:style/AppTheme.DayNight, id=0x7f140008com.nutratech.app.android:style/AppTheme, id=0x7f14000bcom.nutratech.app.android:style/AppThemeBase, id=0x7f140231com.nutratech.app.android:style/Theme.AppCompat.DayNight.NoActionBar, id=0x7f14023ecom.nutratech.app.android:style/Theme.AppCompat.NoActionBar, id=0x7f140229com.nutratech.app.android:style/Theme.AppCompat, id=0x7f14004ccom.nutratech.app.android:style/Base.Theme.AppCompat, id=0x7f1400adcom.nutratech.app.android:style/Base.V28.Theme.AppCompat, id=0x7f1400aacom.nutratech.app.android:style/Base.V26.Theme.AppCompat, id=0x7f1400a4com.nutratech.app.android:style/Base.V23.Theme.AppCompat, id=0x7f1400a2com.nutratech.app.android:style/Base.V22.Theme.AppCompat, id=0x7f140097com.nutratech.app.android:style/Base.V21.Theme.AppCompat, id=0x7f1400afcom.nutratech.app.android:style/Base.V7.Theme.AppCompat, id=0x7f14014dcom.nutratech.app.android:style/Platform.AppCompat, id=0x7f140158com.nutratech.app.android:style/Platform.V25.AppCompat, id=0x103022eandroid:style/Theme.Material.NoActionBar, id=0x1030224android:style/Theme.Material, id=0x1030005android:style/Theme], Themes=[com.nutratech.app.android:style/AppTheme.DayNight, forced, com.nutratech.app.android:style/Theme.AppCompat.Empty, forced, android:style/Theme.DeviceDefault.Light.DarkActionBar, forced]}
+                            	at android.content.res.TypedArray.getColor(TypedArray.java:533)
+                            	at androidx.core.content.res.ColorStateListInflaterCompat.inflate(SourceFile:15)
+                            	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXmlInner(SourceFile:13)
+                            	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXml(SourceFile:18)
+                            	at androidx.core.content.res.ResourcesCompat.inflateColorStateList(SourceFile:13)
+                            	at androidx.core.content.res.ResourcesCompat.getColorStateList(SourceFile:13)
+                            	at androidx.core.content.ContextCompat.getColorStateList(SourceFile:9)
+                            	at androidx.appcompat.content.res.AppCompatResources.getColorStateList(SourceFile:1)
+                            	at com.google.android.material.resources.MaterialResources.getColorStateList(SourceFile:3)
+                            	at com.google.android.material.imageview.ShapeableImageView.<init>(SourceFile:18)
+                            	at com.google.android.material.imageview.ShapeableImageView.<init>(SourceFile:2)
+                            	at java.lang.reflect.Constructor.newInstance0(Native Method)
+                            	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+                            	at android.view.LayoutInflater.createView(LayoutInflater.java:758)
+                            	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:910)
+                            	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:865)
+                            	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1027)
+                            	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+                            	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1030)
+                            	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+                            	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1030)
+                            	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+                            	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1030)
+                            	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+                            	at android.view.LayoutInflater.inflate(LayoutInflater.java:576)
+                            	at android.view.LayoutInflater.inflate(LayoutInflater.java:468)
+                            	at com.nutratech.android.fragments.AddServingFragment.onCreateView(SourceFile:5)
+                            	at androidx.fragment.app.Fragment.performCreateView(SourceFile:25)
+                            	at androidx.fragment.app.FragmentStateManager.createView(SourceFile:209)
+                            	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(SourceFile:128)
+                            	at androidx.fragment.app.FragmentManager.executeOpsTogether(SourceFile:348)
+                            	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(SourceFile:92)
+ResourcesCompat          W  	at androidx.fragment.app.FragmentManager.execPendingActions(SourceFile:22) (Ask Gemini)
+                            	at androidx.fragment.app.FragmentManager$5.run(SourceFile:4)
+                            	at android.os.Handler.handleCallback(Handler.java:959)
+                            	at android.os.Handler.dispatchMessage(Handler.java:100)
+                            	at android.os.Looper.loopOnce(Looper.java:257)
+                            	at android.os.Looper.loop(Looper.java:342)
+                            	at android.app.ActivityThread.main(ActivityThread.java:9634)
+                            	at java.lang.reflect.Method.invoke(Native Method)
+                            	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+                            	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+NC_API                   D  Headers:
+NC_API                   D  accept-language: [en_GB]
+NC_API                   D  authorization: [101675e9-2c93-4064-b971-e2be53462188]
+NC_API                   D  user-agent: [Nutracheck.android.phone]
+NC_API                   D  x-api-key: [14235533-2dcd-4c42-8a7d-84c5569738bd]
+NC_API                   D  x-app-version: [12.7.0 20182]
+NC_API                   D  x-local-timestamp: [2026-01-29T05:12:37.776Z]
+NC_API                   D  x-os-version: [35]
+NC_API                   D  x-theme: [dark]
+RecyclerView             W  No adapter attached; skipping layout
+ScrollView               D   onsize change changed 
+NC_API                   D  --> GET https://api.nutracheck.com/api/v1.1/servings?productID=86108 http/1.1
+NC_API                   D  Authorization: 101675e9-2c93-4064-b971-e2be53462188
+NC_API                   D  X-Local-timestamp: 2026-01-29T05:12:37.811Z
+NC_API                   D  X-OS-Version: 35
+NC_API                   D  accept-language: en-GB
+NC_API                   D  X-Theme: dark
+NC_API                   D  X-Api-Key: 14235533-2dcd-4c42-8a7d-84c5569738bd
+NC_API                   D  X-App-Version: 12.7.0 20182
+NC_API                   D  user-agent: Nutracheck.android.phone
+NC_API                   D  --> END GET
+NC_API                   D  Headers:
+NC_API                   D  connection: [keep-alive]
+NC_API                   D  content-disposition: [inline]
+NC_API                   D  content-language: [und]
+NC_API                   D  content-type: [application/json;charset=UTF-8]
+NC_API                   D  date: [Thu, 29 Jan 2026 05:12:36 GMT]
+NC_API                   D  set-cookie: [JSESSIONID=541145BE7CBC484432531F3A5FBC63EA; Path=/; HttpOnly]
+NC_API                   D  transfer-encoding: [chunked]
+NC_API                   D  Body:
+NC_API                   D  {"products":[],"exercises":[]}
+NetdEventL...nerService  D  DNS Requested by 143, 10478(com.nutratech.app.android), SUCCESS, 47ms
+NC_API                   D  <-- 200  https://api.nutracheck.com/api/v1.1/servings?productID=86108 (201ms)
+NC_API                   D  Date: Thu, 29 Jan 2026 05:12:37 GMT
+NC_API                   D  Content-Type: application/json;charset=UTF-8
+NC_API                   D  Connection: keep-alive
+NC_API                   D  Set-Cookie: JSESSIONID=98960D10F290891655EA82D143390317; Path=/; HttpOnly
+NC_API                   D  Content-Language: en-GB
+NC_API                   D  
+NC_API                   D  {"image":{"imageUrlLarge":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/large\/08\/86108.webp","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/08\/86108.png","imageUrlSmall":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/08\/86108.webp","imageUrlSmallCropped":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/cropped\/08\/86108.webp"},"servings":[{"carbohydrates":"2.55","fiveADay":"1.1","sugars":"2.55","salt":"0.01","description":"Medium tomato (85g)","isAddWeight":false,"displayPriority":1,"defaultQuantity":1.0,"pie":{"fat":{"colour":"#fe9f1d","value":6},"carbohydrates":{"colour":"#d347bd","value":81},"protein":{"colour":"#0072c6","value":13},"naturalSugars":{"colour":"#5b7727","value":81},"saturatedFat":{"colour":"#fe9f1d","value":2},"sugars":{"colour":"#d347bd","value":81}},"serving":"Medium tomato (85g)","kcal":"12","saturatedFat":"0.03","sodium":"3","isDefault":true,"trafficLightColourCode":{"saturatedFat":{"colour":"#40b832","value":"LOW"},"sugars":{"colour":"#40b832","value":"LOW"},"salt":{"colour":"#40b832","value":"LOW"},"fat":{"colour":"#40b832","value":"LOW"}},"protein":"0.43","fat":"0.09","isCustom":false,"fibre":"0.85","factor":0.85,"five":"1.1","servingSize":{"measure":"g","size":85.0}},{"carbohydrates":"0.39","fiveADay":"0.2","sugars":"0.39","salt":"0.00","description":"Small slice (13g)","isAddWeight":false,"displayPriority":4,"pie":{"fat":{"colour":"#fe9f1d","value":6},"carbohydrates":{"colour":"#d347bd","value":81},"protein":{"colour":"#0072c6","value":13},"naturalSugars":{"colour":"#5b7727","value":81},"saturatedFat":{"colour":"#fe9f1d","value":2},"sugars":{"colour":"#d347bd","value":81}},"serving":"Small slice (13g)","kcal":"2","saturatedFat":"0.00","sodium":"1","isDefault":false,"trafficLightColourCode":{"saturatedFat":{"colour":"#40b832","value":"LOW"},"sugars":{"colour":"#40b832","value":"LOW"},"salt":{"colour":"#40b832","value":"LOW"},"fat":{"colour":"#40b832","value":"LOW"}},"protein":"0.06","fat":"0.01","isCustom":false,"fibre":"0.13","factor":0.13,"five":"0.2","servingSize":{"measure":"g","size":13.0}},{"carbohydrates":"0.51","fiveADay":"0.2","sugars":"0.51","salt":"0.00","description":"Medium slice (17g)","isAddWeight":false,"displayPriority":3,"pie":{"fat":{"colour":"#fe9f1d","value":6},"carbohydrates":{"colour":"#d347bd","value":81},"protein":{"colour":"#0072c6","value":13},"naturalSugars":{"colour":"#5b7727","value":81},"saturatedFat":{"colour":"#fe9f1d","value":2},"sugars":{"colour":"#d347bd","value":81}},"serving":"Medium slice (17g)","kcal":"2","saturatedFat":"0.01","sodium":"1","isDefault":false,"trafficLightColourCode":{"saturatedFat":{"colour":"#40b832","value":"LOW"},"sugars":{"colour":"#40b832","value":"LOW"},"salt":{"colour":"#40b832","value":"LOW"},"fat":{"colour":"#40b832","value":"LOW"}},"protein":"0.09","fat":"0.02","isCustom":false,"fibre":"0.17","factor":0.17,"five":"0.2","servingSize":{"measure":"g","size":17.0}},{"carbohydrates":"1.95","fiveADay":"0.8","sugars":"1.95","salt":"0.01","description":"Small tomato (65g)","isAddWeight":false,"displayPriority":2,"pie":{"fat":{"colour":"#fe9f1d","value":6},"carbohydrates":{"colour":"#d347bd","value":81},"protein":{"colour":"#0072c6","value":13},"naturalSugars":{"colour":"#5b7727","value":81},"saturatedFat":{"colour":"#fe9f1d","value":2},"sugars":{"colour":"#d347bd","value":81}},"serving":"Small tomato (65g)","kcal":"9","saturatedFat":"0.02","sodium":"3","isDefault":false,"trafficLightColourCode":{"saturatedFat":{"colour":"#40b832","value":"LOW"},"sugars":{"colour":"#40b832","value":"LOW"},"salt":{"colour":"#40b832","value":"LOW"},"fat":{"colour":"#40b832","value":"LOW"}},"protein":"0.32","fat":"0.06","isCustom":false,"fibre":"0.65","factor":0.65,"five":"0.8","servingSize":{"measure":"g","size":65.0}},{"carbohydrates":"3.00","fiveADay":"1.2","sugars":"3.00","salt":"0.01","description":"add weight","isAddWeight":true,"displayPriority":1,"pie":{"fat":{"colour":"#fe9f1
+NC_API                   D  <-- END HTTP (4878-byte body)
+NC_API                   D  New Api GET onResponse: code:200
+NC_API                   D  New Api GET onResponse: message:{"image":{"imageUrlLarge":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/large\/08\/86108.webp","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/08\/86108.png","imageUrlSmall":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/08\/86108.webp","imageUrlSmallCropped":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/cropped\/08\/86108.webp"},"servings":[{"carbohydrates":"2.55","fiveADay":"1.1","sugars":"2.55","salt":"0.01","description":"Medium tomato (85g)","isAddWeight":false,"displayPriority":1,"defaultQuantity":1.0,"pie":{"fat":{"colour":"#fe9f1d","value":6},"carbohydrates":{"colour":"#d347bd","value":81},"protein":{"colour":"#0072c6","value":13},"naturalSugars":{"colour":"#5b7727","value":81},"saturatedFat":{"colour":"#fe9f1d","value":2},"sugars":{"colour":"#d347bd","value":81}},"serving":"Medium tomato (85g)","kcal":"12","saturatedFat":"0.03","sodium":"3","isDefault":true,"trafficLightColourCode":{"saturatedFat":{"colour":"#40b832","value":"LOW"},"sugars":{"colour":"#40b832","value":"LOW"},"salt":{"colour":"#40b832","value":"LOW"},"fat":{"colour":"#40b832","value":"LOW"}},"protein":"0.43","fat":"0.09","isCustom":false,"fibre":"0.85","factor":0.85,"five":"1.1","servingSize":{"measure":"g","size":85.0}},{"carbohydrates":"0.39","fiveADay":"0.2","sugars":"0.39","salt":"0.00","description":"Small slice (13g)","isAddWeight":false,"displayPriority":4,"pie":{"fat":{"colour":"#fe9f1d","value":6},"carbohydrates":{"colour":"#d347bd","value":81},"protein":{"colour":"#0072c6","value":13},"naturalSugars":{"colour":"#5b7727","value":81},"saturatedFat":{"colour":"#fe9f1d","value":2},"sugars":{"colour":"#d347bd","value":81}},"serving":"Small slice (13g)","kcal":"2","saturatedFat":"0.00","sodium":"1","isDefault":false,"trafficLightColourCode":{"saturatedFat":{"colour":"#40b832","value":"LOW"},"sugars":{"colour":"#40b832","value":"LOW"},"salt":{"colour":"#40b832","value":"LOW"},"fat":{"colour":"#40b832","value":"LOW"}},"protein":"0.06","fat":"0.01","isCustom":false,"fibre":"0.13","factor":0.13,"five":"0.2","servingSize":{"measure":"g","size":13.0}},{"carbohydrates":"0.51","fiveADay":"0.2","sugars":"0.51","salt":"0.00","description":"Medium slice (17g)","isAddWeight":false,"displayPriority":3,"pie":{"fat":{"colour":"#fe9f1d","value":6},"carbohydrates":{"colour":"#d347bd","value":81},"protein":{"colour":"#0072c6","value":13},"naturalSugars":{"colour":"#5b7727","value":81},"saturatedFat":{"colour":"#fe9f1d","value":2},"sugars":{"colour":"#d347bd","value":81}},"serving":"Medium slice (17g)","kcal":"2","saturatedFat":"0.01","sodium":"1","isDefault":false,"trafficLightColourCode":{"saturatedFat":{"colour":"#40b832","value":"LOW"},"sugars":{"colour":"#40b832","value":"LOW"},"salt":{"colour":"#40b832","value":"LOW"},"fat":{"colour":"#40b832","value":"LOW"}},"protein":"0.09","fat":"0.02","isCustom":false,"fibre":"0.17","factor":0.17,"five":"0.2","servingSize":{"measure":"g","size":17.0}},{"carbohydrates":"1.95","fiveADay":"0.8","sugars":"1.95","salt":"0.01","description":"Small tomato (65g)","isAddWeight":false,"displayPriority":2,"pie":{"fat":{"colour":"#fe9f1d","value":6},"carbohydrates":{"colour":"#d347bd","value":81},"protein":{"colour":"#0072c6","value":13},"naturalSugars":{"colour":"#5b7727","value":81},"saturatedFat":{"colour":"#fe9f1d","value":2},"sugars":{"colour":"#d347bd","value":81}},"serving":"Small tomato (65g)","kcal":"9","saturatedFat":"0.02","sodium":"3","isDefault":false,"trafficLightColourCode":{"saturatedFat":{"colour":"#40b832","value":"LOW"},"sugars":{"colour":"#40b832","value":"LOW"},"salt":{"colour":"#40b832","value":"LOW"},"fat":{"colour":"#40b832","value":"LOW"}},"protein":"0.32","fat":"0.06","isCustom":false,"fibre":"0.65","factor":0.65,"five":"0.8","servingSize":{"measure":"g","size":65.0}},{"carbohydrates":"3.00","fiveADay":"1.2","sugars":"3.00","salt":"0.01","description":"add weight","isAddWeight":true,"displayPriority":
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManagerUtils  D  startInputInner - Id : 0
+InputMethodManager       I  startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+InputTransport           D  Input channel constructed: 'ClientS', fd=302
+HBD                      I  c [AiWriter] setContact : com.nutratech.app.android
+SGM:GameManager          D  identifyForegroundApp. com.nutratech.app.android, mCurrentUserId: 0, callerUserId: 0
+LayerHistory             I  com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806 Max (can't resolve refresh rate)
+FreecessController       D  com.nutratech.app.android(10478) is important[12]
+VRI[Bottom...y]@b69a415  I  ViewPostIme pointer 0
+LayerHistory             I  com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806 Max (can't resolve refresh rate)
+VRI[Bottom...y]@b69a415  I  ViewPostIme pointer 1
+NC_API                   D  --> POST https://api.nutracheck.com/api/v1/servings http/1.1
+NC_API                   D  Content-Type: application/json; charset=utf-8
+NC_API                   D  Content-Length: 152
+NC_API                   D  Authorization: 101675e9-2c93-4064-b971-e2be53462188
+NC_API                   D  X-Local-timestamp: 2026-01-29T05:12:39.634Z
+NC_API                   D  Accept: application/json
+NC_API                   D  X-OS-Version: 35
+NC_API                   D  accept-language: en-GB
+NC_API                   D  X-Theme: dark
+NC_API                   D  X-Api-Key: 14235533-2dcd-4c42-8a7d-84c5569738bd
+NC_API                   D  X-App-Version: 12.7.0 20182
+NC_API                   D  user-agent: Nutracheck.android.phone
+NC_API                   D  
+NC_API                   D  {"productID":86108,"date":"2026-01-29","factor":"0.85000","quantity":"1.000","serving":"Medium tomato (85g)","occasionTag":"Dinner","diaryTime":"05:12"}
+NC_API                   D  --> END POST (152-byte body)
+NC_API                   D  <-- 204  https://api.nutracheck.com/api/v1/servings (147ms)
+NC_API                   D  Date: Thu, 29 Jan 2026 05:12:38 GMT
+NC_API                   D  Content-Type: application/json;charset=UTF-8
+NC_API                   D  Connection: keep-alive
+NC_API                   D  Set-Cookie: JSESSIONID=3F91BE4A588B45A958318C46ADD0BC47; Path=/; HttpOnly
+NC_API                   D  Content-Encoding: gzip
+NC_API                   D  Content-Language: en-GB
+NC_API                   D  <-- END HTTP
+System.err               W  org.json.JSONException: End of input at character 0 of 
+System.err               W  	at org.json.JSONTokener.syntaxError(JSONTokener.java:469)
+System.err               W  	at org.json.JSONTokener.nextValue(JSONTokener.java:101)
+System.err               W  	at org.json.JSONObject.<init>(JSONObject.java:168)
+System.err               W  	at org.json.JSONObject.<init>(JSONObject.java:185)
+System.err               W  	at com.nutratech.businesslogic.fast_android_networking.NutracheckRequestFAN$3.onResponse(SourceFile:84)
+System.err               W  	at com.androidnetworking.common.ANRequest.deliverSuccessResponse(SourceFile:122)
+System.err               W  	at com.androidnetworking.common.ANRequest.access$6500(SourceFile:1)
+System.err               W  	at com.androidnetworking.common.ANRequest$6.run(SourceFile:5)
+System.err               W  	at android.os.Handler.handleCallback(Handler.java:959)
+System.err               W  	at android.os.Handler.dispatchMessage(Handler.java:100)
+System.err               W  	at android.os.Looper.loopOnce(Looper.java:257)
+System.err               W  	at android.os.Looper.loop(Looper.java:342)
+System.err               W  	at android.app.ActivityThread.main(ActivityThread.java:9634)
+System.err               W  	at java.lang.reflect.Method.invoke(Native Method)
+System.err               W  	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+System.err               W  	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+System.out               I  frag prints, stack: 0, activeFrags: 1
+System.out               I  frag prints, Fragment: androidx.navigation.fragment.NavHostFragment, isAdded: true, isVisible: true
+System.out               I  frag prints, stack: 0, activeFrags: 1
+System.out               I  frag prints, Fragment: androidx.navigation.fragment.NavHostFragment, isAdded: true, isVisible: true
+NC_API                   D  New APi POST onResponse: code:204
+NC_API                   D  New APi POST onResponse: message:Response{protocol=http/1.1, code=204, message=, url=https://api.nutracheck.com/api/v1/servings}
+ImeTracker               I  com.nutratech.app.android:2bd6bb4d: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_CLOSE_CURRENT_SESSION fromUser false
+InputMethodManager_LC    I  closeCurrentInput: IInputMethodManagerGlobalInvoker.hideSoftInput
+ImeTracker               I  com.nutratech.app.android:2bd6bb4d: onCancelled at PHASE_SERVER_SHOULD_HIDE
+NC_API                   D  Headers:
+NC_API                   D  accept-language: [en_GB]
+NC_API                   D  authorization: [101675e9-2c93-4064-b971-e2be53462188]
+NC_API                   D  user-agent: [Nutracheck.android.phone]
+NC_API                   D  x-api-key: [14235533-2dcd-4c42-8a7d-84c5569738bd]
+NC_API                   D  x-app-version: [12.7.0 20182]
+NC_API                   D  x-local-timestamp: [2026-01-29T05:12:39.862Z]
+NC_API                   D  x-os-version: [35]
+NC_API                   D  x-theme: [dark]
+androidx.g...GridLayout  D  vertical constraints: y1-y0>=114, y1-y0<=90 are inconsistent; permanently removing: y1-y0<=90. 
+NC_API                   D  Headers:
+NC_API                   D  accept-language: [en_GB]
+NC_API                   D  authorization: [101675e9-2c93-4064-b971-e2be53462188]
+NC_API                   D  user-agent: [Nutracheck.android.phone]
+NC_API                   D  x-api-key: [14235533-2dcd-4c42-8a7d-84c5569738bd]
+NC_API                   D  x-app-version: [12.7.0 20182]
+NC_API                   D  x-local-timestamp: [2026-01-29T05:12:39.866Z]
+NC_API                   D  x-os-version: [35]
+NC_API                   D  x-theme: [dark]
+NC_API                   D  Headers:
+NC_API                   D  connection: [keep-alive]
+NC_API                   D  content-disposition: [inline]
+NC_API                   D  content-language: [und]
+NC_API                   D  content-type: [application/json;charset=UTF-8]
+NC_API                   D  date: [Thu, 29 Jan 2026 05:12:38 GMT]
+NC_API                   D  set-cookie: [JSESSIONID=3B58CF9E970920F25CC107D05666B0B2; Path=/; HttpOnly]
+NC_API                   D  transfer-encoding: [chunked]
+NC_API                   D  Body:
+NC_API                   D  {"products":[],"exercises":[]}
+NC_API                   D  Headers:
+NC_API                   D  cache-control: [private, max-age=0]
+NC_API                   D  connection: [keep-alive]
+NC_API                   D  content-language: [und]
+NC_API                   D  content-type: [application/json;charset=UTF-8]
+NC_API                   D  date: [Thu, 29 Jan 2026 05:12:38 GMT]
+NC_API                   D  etag: [705A14058390EB30103B716A71A83514]
+NC_API                   D  if-none-match: [705A14058390EB30103B716A71A83514]
+NC_API                   D  set-cookie: [JSESSIONID=89C2BDC2E1A5554B657A8D4DDAA605C3; Path=/; HttpOnly]
+NC_API                   D  Body:
+NC_API                   D  {"date":"2026-01-29","alcohol":"0.0","settings":{"tabletLandscapeDiaryTrackers":"water,fiveADay,alcoholUnits","offers":[{"visible":false,"applied":true,"offerCode":"save67","additionalText":"when you buy 12 months membership","offerEndsOn":"2026-02-09T23:59:59","promotionCodeRequired":false,"emailRequired":false}],"desktopColumns":"kcal,fat,carbohydrates,protein","showOccasionView":true,"phoneLandscapeColumns":"kcal,fat","phonePortraitColumns":"kcal,fat","phonePortraitMultiColumns":"kcal,fat","tabletLandscapeColumns":"kcal,fat,saturatedFat,carbohydrates,sugars,protein,salt","tabletPortraitColumns":"kcal,fat,carbohydrates,protein","tabletPortraitDiaryTrackers":"water,fiveADay,alcoholUnits","contactable":{"offers":true},"weeklyViewStartDay":1,"foodDatabase":"GB","phonePortraitDiaryTrackers":"water,fiveADay","showReferralBanner":false,"hasLinkedUserAccounts":false,"viewStyle":"combined","linkedAccounts":["Localytics"],"messages":[],"currentDietaryProfile":"balanced"},"fiveADay":"3.6","water":0,"separateTotals":{"exercise":{"added":{"kcal":{"colour":"#933fb7","value":"0"}},"left":{"kcal":{"colour":"#989898","value":"200"}}},"food":{"added":{"carbohydrates":{"colour":"#1791b5","value":"9.3"},"kcal":{"colour":"#1791b5","value":"119"},"saturatedFat":{"colour":"#1791b5","value":"1.5"},"sodium":{"colour":"#1791b5","value":"82.1"},"sugars":{"colour":"#1791b5","value":"9.2"},"salt":{"colour":"#1791b5","value":"0.21"},"protein":{"colour":"#1791b5","value":"8.9"},"fat":{"colour":"#1791b5","value":"5.4"},"fibre":{"colour":"#1791b5","value":"3.1"}},"left":{"carbohydrates":{"colour":"#73c01a","value":"169.8"},"kcal":{"colour":"#73c01a","value":"1314"},"saturatedFat":{"colour":"#73c01a","value":"16.1"},"sodium":{"colour":"#73c01a","value":"2244"},"sugars":{"colour":"#73c01a","value":"55.3"},"salt":{"colour":"#73c01a","value":"5.79"},"protein":{"colour":"#73c01a","value":"44.8"},"fat":{"colour":"#73c01a","value":"50.4"},"fibre":{"colour":"#73c01a","value":"26.9"}}}},"combinedTotals":{"goal":{"carbohydrates":{"colour":"#f77b00","value":"179.1"},"kcal":{"colour":"#f77b00","value":"1233"},"saturatedFat":{"colour":"#f77b00","value":"17.5"},"sodium":{"colour":"#f77b00","value":"2325.6"},"sugars":{"colour":"#f77b00","value":"64.5"},"salt":{"colour":"#f77b00","value":"6.00"},"protein":{"colour":"#f77b00","value":"53.7"},"fat":{"colour":"#f77b00","value":"55.7"},"fibre":{"colour":"#f77b00","value":"30.0"}},"left":{"carbohydrates":{"colour":"#73c01a","value":"169.8"},"kcal":{"colour":"#73c01a","value":"1114"},"saturatedFat":{"colour":"#73c01a","value":"16.1"},"sodium":{"colour":"#73c01a","value":"2244"},"sugars":{"colour":"#73c01a","value":"55.3"},"salt":{"colour":"#73c01a","value":"5.79"},"protein":{"colour":"#73c01a","value":"44.8"},"fat":{"colour":"#73c01a","value":"50.4"},"fibre":{"colour":"#73c01a","value":"26.9"}},"exercise":{"carbohydrates":{"colour":"#a1a1a1","value":"0.0"},"kcal":{"colour":"#933fb7","value":"0"},"saturatedFat":{"colour":"#a1a1a1","value":"0.0"},"sodium":{"colour":"#989898","value":"-"},"salt":{"colour":"#989898","value":"-"},"sugars":{"colour":"#a1a1a1","value":"0.0"},"protein":{"colour":"#a1a1a1","value":"0.0"},"fat":{"colour":"#a1a1a1","value":"0.0"},"fibre":{"colour":"#989898","value":"-"}},"food":{"carbohydrates":{"colour":"#1791b5","value":"9.3"},"kcal":{"colour":"#1791b5","value":"119"},"saturatedFat":{"colour":"#1791b5","value":"1.5"},"sodium":{"colour":"#1791b5","value":"82.1"},"sugars":{"colour":"#1791b5","value":"9.2"},"salt":{"colour":"#1791b5","value":"0.21"},"protein":{"colour":"#1791b5","value":"8.9"},"fat":{"colour":"#1791b5","value":"5.4"},"fibre":{"colour":"#1791b5","value":"3.1"}}},"accountStatus":"freeLite","entries":[{"productID":86634,"description":"Cucumber","source":"nutracheck","isCopyable":true,"timeEaten":"2026-01-29 05:08","serving":"1 Inch piece (50g)","isDeletable":true,"isEditable":true,"protein":"0.5","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/34\/86634.png","fat":"0.3","id":3569422271,"isFavourite":false,"servingSize"
+BaseRestrictionMgr       D  Package: com.facebook.katana, userid: 0, hostingType: provider is allowed by freecess, caller is: com.nutratech.app.android
+ActivityTaskManager      D  TaskLaunchParamsModifier:task=Task{2965848 #1490 type=standard A=10478:com.nutratech.app.android} activity=ActivityRecord{8abab3a u0 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity t-1} display-area-from-source=DefaultTaskDisplayArea_d0@62253394 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea_d0@62253394 inherit-from-source=fullscreen non-freeform-task-display-area display-area=DefaultTaskDisplayArea_d0@62253394 default-portrait freeform-size-mismatch=Rect(81, 637 - 999, 1837)
+WindowManager            V  Collecting in transition 659: ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490}, caller=com.android.server.wm.TransitionController.collect:7 com.android.server.wm.ActivityStarter.startActivityInner:235 com.android.server.wm.ActivityStarter.startActivityUnchecked:639 com.android.server.wm.ActivityStarter.executeRequest:3361 com.android.server.wm.ActivityStarter.execute:1122 
+WindowManager            D  prepareSync <SYNC_STATE_WAITING_FOR_DRAW>, mPrepareSyncSeqId=0, win=Window{abbf025 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}
+ActivityTaskManager      D  scheduleTopResumedActivityChanged, onTop=false, r=ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490}, caller=com.android.server.wm.ActivityTaskSupervisor.scheduleTopResumedActivityStateLossIfNeeded:11 com.android.server.wm.ActivityTaskSupervisor.updateTopResumedActivityIfNeeded:19 com.android.server.wm.TaskFragment.setResumedActivity:29 com.android.server.wm.ActivityRecord.setState:95 com.android.server.wm.TaskFragment.startPausing$1:210 com.android.server.wm.TaskFragment.resumeTopActivity:698 
+WindowManagerShell       V  Transition requested (#659): android.os.BinderProxy@f2b3012 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=1490 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.nutratech.app.android cmp=com.nutratech.app.android/com.nutratech.android.activities.MainActivity } baseActivity=ComponentInfo{com.nutratech.app.android/com.nutratech.android.activities.MainActivity} topActivity=ComponentInfo{com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity} origActivity=null realActivity=ComponentInfo{com.nutratech.app.android/com.nutratech.android.activities.MainActivity} numActivities=5 lastActiveTime=53469598 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 maxWidth=-1 maxHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@df523e3} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{6e1a1e0 com.android.permissioncontroller.permission.ui.GrantPermissionsActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=true isTopActivityStyleFloating=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 topActivityLetterboxAppWidth=1080 topActivityLetterboxAppHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive} topActivityBounds=null topActivityInDisplayCompat=false} originallySupportedMultiWindow=true hasWallpaper=false rootAffinity=10478:com.nutratech.app.android isTopTaskInStage=false topActivityUiMode=33 CoverLauncherWidgetTask=false isAllowedSeamlessRotation=false isTopTransparentActivity=false snappingGuideBounds=Rect(81, 637 - 999, 1837) isAliasManaged=false hasConfigChanged=false isAiKeyRemoveAppTask=false}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 659 }
+DiaryGetModel Diff       D  Property 'combinedTotals.food' differs: {CARBS=NutrientTotalModel(colour=#1791b5, value=6.7), KCAL=NutrientTotalModel(colour=#1791b5, value=107), SAT_FAT=NutrientTotalModel(colour=#1791b5, value=1.4), SODIUM=NutrientTotalModel(colour=#1791b5, value=78.8), SUGARS=NutrientTotalModel(colour=#1791b5, value=6.7), SALT=NutrientTotalModel(colour=#1791b5, value=0.20), PROTEIN=NutrientTotalModel(colour=#1791b5, value=8.5), FAT=NutrientTotalModel(colour=#1791b5, value=5.3), FIBRE=NutrientTotalModel(colour=#1791b5, value=2.3)} != {CARBS=NutrientTotalModel(colour=#1791b5, value=9.3), KCAL=NutrientTotalModel(colour=#1791b5, value=119), SAT_FAT=NutrientTotalModel(colour=#1791b5, value=1.5), SODIUM=NutrientTotalModel(colour=#1791b5, value=82.1), SUGARS=NutrientTotalModel(colour=#1791b5, value=9.2), SALT=NutrientTotalModel(colour=#1791b5, value=0.21), PROTEIN=NutrientTotalModel(colour=#1791b5, value=8.9), FAT=NutrientTotalModel(colour=#1791b5, value=5.4), FIBRE=NutrientTotalModel(colour=#1791b5, value=3.1)}
+DiaryGetModel Diff       D  Property 'combinedTotals.left' differs: {CARBS=NutrientTotalModel(colour=#73c01a, value=172.4), KCAL=NutrientTotalModel(colour=#73c01a, value=1126), SAT_FAT=NutrientTotalModel(colour=#73c01a, value=16.1), SODIUM=NutrientTotalModel(colour=#73c01a, value=2247), SUGARS=NutrientTotalModel(colour=#73c01a, value=57.8), SALT=NutrientTotalModel(colour=#73c01a, value=5.80), PROTEIN=NutrientTotalModel(colour=#73c01a, value=45.3), FAT=NutrientTotalModel(colour=#73c01a, value=50.5), FIBRE=NutrientTotalModel(colour=#73c01a, value=27.7)} != {CARBS=NutrientTotalModel(colour=#73c01a, value=169.8), KCAL=NutrientTotalModel(colour=#73c01a, value=1114), SAT_FAT=NutrientTotalModel(colour=#73c01a, value=16.1), SODIUM=NutrientTotalModel(colour=#73c01a, value=2244), SUGARS=NutrientTotalModel(colour=#73c01a, value=55.3), SALT=NutrientTotalModel(colour=#73c01a, value=5.79), PROTEIN=NutrientTotalModel(colour=#73c01a, value=44.8), FAT=NutrientTotalModel(colour=#73c01a, value=50.4), FIBRE=NutrientTotalModel(colour=#73c01a, value=26.9)}
+DiaryGetModel Diff       D  Property 'entries' differs: [DiaryEntryModel(date=2026-01-29, productID=132083, mealID=0, manuallyAddedID=0, ingredientID=0, exerciseID=0, description=Hard Boiled Eggs, source=nutracheck, isCopyable=true, timeEaten=2026-01-29T10:06, inclusionStatus=null, serving=Medium (46g), isDeletable=true, isEditable=true, carbohydrates=0.0, kcal=66, saturatedFat=1.2, sodium=68, sugars=0.0, salt=0.17, protein=6.5, fat=4.4, fibre=0.0, alcohol=0.0, fiveADay=0.0, imageUrl=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/148/83/132083.png, sourceIconUrl=null, sourceTitle=null, trackerSource=null, id=3567182252, isFavourite=false, servingSize=ServingSizeModel(measure=g, size=46.0), isFavoritable=true, image=ImageModel(imageUrl=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/148/83/132083.png, imageUrlLarge=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/transparent/large/83/132083.webp, imageUrlSmall=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/transparent/small/83/132083.webp, imageUrlSmallCropped=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/transparent/small/cropped/83/132083.webp, imageUrlWide=null, imageUrlWideTransparent=null, imageUrlTransparent=null), isExercise=false, exerciseType=null, occasionTag=Snacks, kcalPerRep=null, oneRepMaxEstKg=null, sets=[], activityQuantitySample=null, savedDate=2026-01-29T05:12:24), DiaryEntryModel(date=2026-01-29, productID=86638, mealID=0, manuallyAddedID=0, ingredientID=0, exerciseID=0, description=Cherry Tomatoes, Fresh, source=nutracheck, isCopyable=true, timeEaten=2026-01-29T10:06, inclusionStatus=null, serving=5 Cherry tomatoes (75g), isDeletable=true, isEditable=true, carbohydrates=2.7, kcal=17, saturatedFat=0.1, sodium=3, sugars=2.7, salt=0.01, protein=0.8, fat=0.4, fibre=1.0, alcohol=0.0, fiveADay=0.94, imageUrl=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/148/38/86638.png, sourceIconUrl=null, sourceTitle=null, trackerSource=null, id=3567182388, isFavourite=false, servingSize=ServingSizeModel(measure=g, size=75.0), isFavoritable=true, image=ImageModel(imageUrl=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/148/38/86638.png, imageUrlLarge=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/transparent/large/38/86638.webp, imageUrlSmall=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/transparent/small/38/86638.webp, imageUrlSmallCropped=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/transparent/small/cropped/38/86638.webp, imageUrlWide=null, imageUrlWideTransparent=null, imageUrlTransparent=null), isExercise=false, exerciseType=null, occasionTag=Snacks, kcalPerRep=null, oneRepMaxEstKg=null, sets=[], activityQuantitySample=null, savedDate=2026-01-29T05:12:24), DiaryEntryModel(date=2026-01-29, productID=86634, mealID=0, manuallyAddedID=0, ingredientID=0, exerciseID=0, description=Cucumber, source=nutracheck, isCopyable=true, timeEaten=2026-01-29T05:08, inclusionStatus=null, serving=1 Inch piece (50g), isDeletable=true, isEditable=true, carbohydrates=0.6, kcal=7, saturatedFat=0.0, sodium=2, sugars=0.6, salt=0.00, protein=0.5, fat=0.3, fibre=0.3, alcohol=0.0, fiveADay=0.63, imageUrl=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/148/34/86634.png, sourceIconUrl=null, sourceTitle=null, trackerSource=null, id=3569422271, isFavourite=false, servingSize=ServingSizeModel(measure=g, size=50.0), isFavoritable=true, image=ImageModel(imageUrl=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/148/34/86634.png, imageUrlLarge=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/transparent/large/34/86634.webp, imageUrlSmall=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/transparent/small/34/86634.webp, imageUrlSmallCropped=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/transparent/small/cropped/34/86634.webp, imageUrlWide=null, imageUrlWideTransparent=null, imageUrlTransparent=null), isExercise=false, exerciseType=null, occasionTag=Lunch, kcalPerRep=null, oneRepMaxEstKg=null, sets=[], activityQuantitySample=null,
+DiaryGetModel Diff       D  Property 'fiveADay' differs: 2.6 != 3.6
+DiaryGetModel Diff       D  Property 'healthKitTotals.carbohydrates' differs: 6.7 != 9.3
+DiaryGetModel Diff       D  Property 'healthKitTotals.fat' differs: 5.3 != 5.4
+DiaryGetModel Diff       D  Property 'healthKitTotals.fibre' differs: 2.3 != 3.1
+DiaryGetModel Diff       D  Property 'healthKitTotals.kcal' differs: 107 != 119
+DiaryGetModel Diff       D  Property 'healthKitTotals.protein' differs: 8.5 != 8.9
+DiaryGetModel Diff       D  Property 'healthKitTotals.salt' differs: 0.20 != 0.21
+DiaryGetModel Diff       D  Property 'healthKitTotals.saturatedFat' differs: 1.4 != 1.5
+DiaryGetModel Diff       D  Property 'healthKitTotals.sodium' differs: 0.079 != 0.082
+DiaryGetModel Diff       D  Property 'healthKitTotals.sugars' differs: 6.7 != 9.2
+DiaryGetModel Diff       D  Property 'separateTotals.food.added' differs: {CARBS=NutrientTotalModel(colour=#1791b5, value=6.7), KCAL=NutrientTotalModel(colour=#1791b5, value=107), SAT_FAT=NutrientTotalModel(colour=#1791b5, value=1.4), SODIUM=NutrientTotalModel(colour=#1791b5, value=78.8), SUGARS=NutrientTotalModel(colour=#1791b5, value=6.7), SALT=NutrientTotalModel(colour=#1791b5, value=0.20), PROTEIN=NutrientTotalModel(colour=#1791b5, value=8.5), FAT=NutrientTotalModel(colour=#1791b5, value=5.3), FIBRE=NutrientTotalModel(colour=#1791b5, value=2.3)} != {CARBS=NutrientTotalModel(colour=#1791b5, value=9.3), KCAL=NutrientTotalModel(colour=#1791b5, value=119), SAT_FAT=NutrientTotalModel(colour=#1791b5, value=1.5), SODIUM=NutrientTotalModel(colour=#1791b5, value=82.1), SUGARS=NutrientTotalModel(colour=#1791b5, value=9.2), SALT=NutrientTotalModel(colour=#1791b5, value=0.21), PROTEIN=NutrientTotalModel(colour=#1791b5, value=8.9), FAT=NutrientTotalModel(colour=#1791b5, value=5.4), FIBRE=NutrientTotalModel(colour=#1791b5, value=3.1)}
+DiaryGetModel Diff       D  Property 'separateTotals.food.left' differs: {CARBS=NutrientTotalModel(colour=#73c01a, value=172.4), KCAL=NutrientTotalModel(colour=#73c01a, value=1326), SAT_FAT=NutrientTotalModel(colour=#73c01a, value=16.1), SODIUM=NutrientTotalModel(colour=#73c01a, value=2247), SUGARS=NutrientTotalModel(colour=#73c01a, value=57.8), SALT=NutrientTotalModel(colour=#73c01a, value=5.80), PROTEIN=NutrientTotalModel(colour=#73c01a, value=45.3), FAT=NutrientTotalModel(colour=#73c01a, value=50.5), FIBRE=NutrientTotalModel(colour=#73c01a, value=27.7)} != {CARBS=NutrientTotalModel(colour=#73c01a, value=169.8), KCAL=NutrientTotalModel(colour=#73c01a, value=1314), SAT_FAT=NutrientTotalModel(colour=#73c01a, value=16.1), SODIUM=NutrientTotalModel(colour=#73c01a, value=2244), SUGARS=NutrientTotalModel(colour=#73c01a, value=55.3), SALT=NutrientTotalModel(colour=#73c01a, value=5.79), PROTEIN=NutrientTotalModel(colour=#73c01a, value=44.8), FAT=NutrientTotalModel(colour=#73c01a, value=50.4), FIBRE=NutrientTotalModel(colour=#73c01a, value=26.9)}
+DiaryGetModel Diff       D  Property 'subTotals' differs: {Dinner=NutritionModel(carbohydrates=3.4, kcal=17, saturatedFat=0.1, sodium=6.2, sugars=3.4, salt=0.02, protein=0.6, fat=0.2, fibre=1.0, alcohol=-, fiveADay=-, servingSize=0), Snacks=NutritionModel(carbohydrates=2.7, kcal=83, saturatedFat=1.3, sodium=70.7, sugars=2.7, salt=0.18, protein=7.3, fat=4.8, fibre=1.0, alcohol=-, fiveADay=-, servingSize=0), exercise=NutritionModel(carbohydrates=-, kcal=0, saturatedFat=-, sodium=-, sugars=-, salt=-, protein=-, fat=-, fibre=-, alcohol=-, fiveADay=-, servingSize=0), Lunch=NutritionModel(carbohydrates=0.6, kcal=7, saturatedFat=0.0, sodium=1.9, sugars=0.6, salt=0.00, protein=0.5, fat=0.3, fibre=0.3, alcohol=-, fiveADay=-, servingSize=0)} != {Dinner=NutritionModel(carbohydrates=6.0, kcal=29, saturatedFat=0.1, sodium=9.5, sugars=5.9, salt=0.02, protein=1.1, fat=0.2, fibre=1.8, alcohol=-, fiveADay=-, servingSize=0), Snacks=NutritionModel(carbohydrates=2.7, kcal=83, saturatedFat=1.3, sodium=70.7, sugars=2.7, salt=0.18, protein=7.3, fat=4.8, fibre=1.0, alcohol=-, fiveADay=-, servingSize=0), exercise=NutritionModel(carbohydrates=-, kcal=0, saturatedFat=-, sodium=-, sugars=-, salt=-, protein=-, fat=-, fibre=-, alcohol=-, fiveADay=-, servingSize=0), Lunch=NutritionModel(carbohydrates=0.6, kcal=7, saturatedFat=0.0, sodium=1.9, sugars=0.6, salt=0.00, protein=0.5, fat=0.3, fibre=0.3, alcohol=-, fiveADay=-, servingSize=0)}
+libc                     W  Access denied finding property "vzw.os.rooted"
+androidx.g...GridLayout  D  vertical constraints: y2-y0>=114, y1-y0>=114, y1-y0<=90 are inconsistent; permanently removing: y1-y0<=90. 
+AppWidgetProvider        D  onReceive:android.appwidget.action.APPWIDGET_UPDATE
+FIAM.Display             I  Unbinding from activity: com.nutratech.android.activities.BottomNavActivity
+FIAM.Headless            I  Removing display event component
+SessionLifecycleClient   D  Sending lifecycle 2 to service
+SessionLifecycleService  D  Activity backgrounding at 40448891
+WindowManager            D  Changing focus from Window{abbf025 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity} to null displayId=0 Callers=com.android.server.wm.ActivityTaskManagerService.setLastResumedActivityUncheckLocked:264 com.android.server.wm.ActivityTaskSupervisor.updateTopResumedActivityIfNeeded:50 com.android.server.wm.TaskFragment.setResumedActivity:29 com.android.server.wm.ActivityRecord.setState:104 
+SGM:FgCheckThread        D  notePauseComponent(), received pkgName: com.nutratech.app.android, userId: 0
+SGM:FgCheckThread        D  notePauseComponent(), received pkgName: com.nutratech.app.android, userId: 0
+SGM:FgCheckThread        D  notifyFocusInOut(). of pkg: com.nutratech.app.android, type: 20, isSecGameFamily: false, userId: 0
+SGM:GameManager          D  identifyGamePackage. com.nutratech.app.android, mCurrentUserId: 0, callerUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:105)
+SGM:SemGameManager       D  isGamePackage(), pkgName=com.nutratech.app.android, ret=false
+AppWidgetProvider        D  onReceive:android.appwidget.action.APPWIDGET_UPDATE
+SGM:GameManager          D  identifyForegroundApp. com.nutratech.app.android, mCurrentUserId: 0, callerUserId: 0
+ech.app.android          W  Cleared Reference was only reachable from finalizer (only reported once)
+InputDispatcher          D  Focus left window (0): abbf025 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+ImeFocusController       I  onPreWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+ImeFocusController       I  onPostWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+AppWidgetProvider        D  onReceive:android.appwidget.action.APPWIDGET_UPDATE
+AppWidgetProvider        D  onReceive:android.appwidget.action.APPWIDGET_UPDATE
+AppWidgetProvider        D  onReceive:android.appwidget.action.APPWIDGET_UPDATE
+InputTransport           D  Input channel destroyed: 'ClientS', fd=302
+AppWidgetProvider        D  onReceive:android.appwidget.action.APPWIDGET_UPDATE
+InputTransport           D  Input channel destroyed: 'ClientS', fd=263
+InputTransport           D  Input channel destroyed: 'ClientS', fd=291
+InputTransport           D  Input channel destroyed: 'ClientS', fd=219
+InputTransport           D  Input channel destroyed: 'ClientS', fd=252
+InputTransport           D  Input channel destroyed: 'ClientS', fd=266
+NetdEventL...nerService  D  DNS Requested by 143, 10478(com.nutratech.app.android), SUCCESS, 29ms
+WindowManager            V  Start calculating TransitionInfo based on participants: {ActivityRecord{8abab3a u0 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity t1490}, ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490}}
+SurfaceControlRegistry   I  show, t=StartTransaction_SyncId<659> sc=ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490}, caller=android.view.SurfaceControl$Transaction.show:3232 com.android.server.wm.Transition.onTransactionReady:2273 com.android.server.wm.BLASTSyncEngine$SyncGroup.finishNow:195 com.android.server.wm.BLASTSyncEngine.onSurfacePlacement:269 com.android.server.wm.RootWindowContainer.performSurfacePlacementNoTrace:471 com.android.server.wm.RootWindowContainer.performSurfacePlacement:9 
+WindowManager            V  Sent Transition (#659) createdAt=01-29 05:12:39.935 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=1490 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.nutratech.app.android cmp=com.nutratech.app.android/com.nutratech.android.activities.MainActivity } baseActivity=ComponentInfo{com.nutratech.app.android/com.nutratech.android.activities.MainActivity} topActivity=ComponentInfo{com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity} origActivity=null realActivity=ComponentInfo{com.nutratech.app.android/com.nutratech.android.activities.MainActivity} numActivities=5 lastActiveTime=53469598 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 maxWidth=-1 maxHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{e57e09e Task{2965848 #1490 type=standard A=10478:com.nutratech.app.android}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{6664512 com.android.permissioncontroller.permission.ui.GrantPermissionsActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=true isTopActivityStyleFloating=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 topActivityLetterboxAppWidth=1080 topActivityLetterboxAppHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive} topActivityBounds=null topActivityInDisplayCompat=false} originallySupportedMultiWindow=true hasWallpaper=false rootAffinity=10478:com.nutratech.app.android isTopTaskInStage=false topActivityUiMode=33 CoverLauncherWidgetTask=false isAllowedSeamlessRotation=false isTopTransparentActivity=false snappingGuideBounds=Rect(81, 637 - 999, 1837) isAliasManaged=false hasConfigChanged=false isAiKeyRemoveAppTask=false}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 659 }
+PersonaActivityHelper    D  token.toString()  Token{2621a90 ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490}}
+InputTransport           D  Input channel destroyed: 'ClientS', fd=200
+FreecessController       D  com.nutratech.app.android(10478) is important[18]
+SurfaceFlinger           D  Display 4633128672291735937 HWC layers:
+                                   DEVICE |   0xb4000070379f0010 | 0001 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |    0    0 1080 2400 | com.nutratech.app.android/com.nutrat[...]ities.BottomNavActivity$_13746#12806 (886)
+                              SOLID_COLOR |                      | 0001 | Unknown      |    0.0    0.0    0.0    0.0 |    0    0 1080 2400 | Dim Layer for - Task=1490#12846
+                                   DEVICE |   0xb4000070379f2a10 | 0001 | RGBA_8888    |    6.0    0.0 1086.0  135.0 |    0 2265 1080 2400 | com.google.android.permissioncontrol[...]rantPermissionsActivity$_14015#12839 (1)
+                                   DEVICE |   0xb400007037a27910 | 0001 | RGBA_8888    |    0.0    0.0 1080.0   75.0 |    0    0 1080   75 | StatusBar$_2088#96 (6654)
+                                   DEVICE |   0xb400007037a0d190 | 0001 | RGBA_8888    |    0.0    0.0   67.0  342.0 | 1013  466 1080  808 | com.sec.android.app.launcher/com.sam[...]l.app.CocktailBarService$_2647#12602 (1)
+                                   DEVICE |   0xb400007037a2c290 | 0001 | RGBA_8888    |    0.0    0.0  388.0   60.0 |  692 2340 1080 2400 |
+TRuntime.C...ortBackend  I  Making request to: https://firebaselogging.googleapis.com/v0cc/log/batch?format=json_proto3
+NetdEventL...nerService  D  DNS Requested by 143, 10478(com.nutratech.app.android), SUCCESS, 15ms
+TRuntime.C...ortBackend  I  Status Code: 200
+NetdEventL...nerService  D  DNS Requested by 143, 10478(com.nutratech.app.android), SUCCESS, 24ms
+SGM:GameManager          D  identifyForegroundApp. com.nutratech.app.android, mCurrentUserId: 0, callerUserId: 0
+NC_API                   D  Headers:
+NC_API                   D  accept-language: [en_GB]
+NC_API                   D  authorization: [101675e9-2c93-4064-b971-e2be53462188]
+NC_API                   D  user-agent: [Nutracheck.android.phone]
+NC_API                   D  x-api-key: [14235533-2dcd-4c42-8a7d-84c5569738bd]
+NC_API                   D  x-app-version: [12.7.0 20182]
+NC_API                   D  x-local-timestamp: [2026-01-29T05:12:40.706Z]
+NC_API                   D  x-os-version: [35]
+NC_API                   D  x-theme: [dark]
+NC_API                   D  Headers:
+NC_API                   D  connection: [keep-alive]
+NC_API                   D  content-disposition: [inline]
+NC_API                   D  content-language: [und]
+NC_API                   D  content-type: [application/json;charset=UTF-8]
+NC_API                   D  date: [Thu, 29 Jan 2026 05:12:39 GMT]
+NC_API                   D  set-cookie: [JSESSIONID=F5F3689D4A258F6282AB1A239A6289CA; Path=/; HttpOnly]
+NC_API                   D  transfer-encoding: [chunked]
+NC_API                   D  Body:
+NC_API                   D  {"products":[],"exercises":[]}
+DiaryGetModel Diff       D  Property 'entries' differs: [DiaryEntryModel(date=2026-01-29, productID=86634, mealID=0, manuallyAddedID=0, ingredientID=0, exerciseID=0, description=Cucumber, source=nutracheck, isCopyable=true, timeEaten=2026-01-29T05:08, inclusionStatus=null, serving=1 Inch piece (50g), isDeletable=true, isEditable=true, carbohydrates=0.6, kcal=7, saturatedFat=0.0, sodium=2, sugars=0.6, salt=0.00, protein=0.5, fat=0.3, fibre=0.3, alcohol=0.0, fiveADay=0.63, imageUrl=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/148/34/86634.png, sourceIconUrl=null, sourceTitle=null, trackerSource=null, id=3569422271, isFavourite=false, servingSize=ServingSizeModel(measure=g, size=50.0), isFavoritable=true, image=ImageModel(imageUrl=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/148/34/86634.png, imageUrlLarge=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/transparent/large/34/86634.webp, imageUrlSmall=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/transparent/small/34/86634.webp, imageUrlSmallCropped=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/transparent/small/cropped/34/86634.webp, imageUrlWide=null, imageUrlWideTransparent=null, imageUrlTransparent=null), isExercise=false, exerciseType=null, occasionTag=Lunch, kcalPerRep=null, oneRepMaxEstKg=null, sets=null, activityQuantitySample=null, savedDate=2026-01-29T05:12:39.933), DiaryEntryModel(date=2026-01-29, productID=132144, mealID=0, manuallyAddedID=0, ingredientID=0, exerciseID=0, description=Red Peppers, Raw, source=nutracheck, isCopyable=true, timeEaten=2026-01-29T05:09, inclusionStatus=null, serving=1/2 Medium pepper (80g), isDeletable=true, isEditable=true, carbohydrates=3.4, kcal=17, saturatedFat=0.1, sodium=6, sugars=3.4, salt=0.02, protein=0.6, fat=0.2, fibre=1.0, alcohol=0.0, fiveADay=1.0, imageUrl=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/148/44/132144.png, sourceIconUrl=null, sourceTitle=null, trackerSource=null, id=3569422319, isFavourite=false, servingSize=ServingSizeModel(measure=g, size=80.0), isFavoritable=true, image=ImageModel(imageUrl=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/148/44/132144.png, imageUrlLarge=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/transparent/large/44/132144.webp, imageUrlSmall=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/transparent/small/44/132144.webp, imageUrlSmallCropped=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/transparent/small/cropped/44/132144.webp, imageUrlWide=null, imageUrlWideTransparent=null, imageUrlTransparent=null), isExercise=false, exerciseType=null, occasionTag=Dinner, kcalPerRep=null, oneRepMaxEstKg=null, sets=null, activityQuantitySample=null, savedDate=2026-01-29T05:12:39.933), DiaryEntryModel(date=2026-01-29, productID=86108, mealID=0, manuallyAddedID=0, ingredientID=0, exerciseID=0, description=Tomatoes, Fresh, source=nutracheck, isCopyable=true, timeEaten=2026-01-29T05:12, inclusionStatus=null, serving=Medium tomato (85g), isDeletable=true, isEditable=true, carbohydrates=2.5, kcal=12, saturatedFat=0.0, sodium=3, sugars=2.5, salt=0.01, protein=0.4, fat=0.1, fibre=0.9, alcohol=0.0, fiveADay=1.06, imageUrl=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/148/08/86108.png, sourceIconUrl=null, sourceTitle=null, trackerSource=null, id=3569423225, isFavourite=false, servingSize=ServingSizeModel(measure=g, size=85.0), isFavoritable=true, image=ImageModel(imageUrl=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/148/08/86108.png, imageUrlLarge=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/transparent/large/08/86108.webp, imageUrlSmall=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/transparent/small/08/86108.webp, imageUrlSmallCropped=https://d2lhwe7okuon6r.cloudfront.net/media/productimages/transparent/small/cropped/08/86108.webp, imageUrlWide=null, imageUrlWideTransparent=null, imageUrlTransparent=null), isExercise=false, exerciseType=null, occasionTag=Dinner, kcalPerRep=null, oneRepMaxEstKg=null, sets=null, activityQuantit
+AppWidgetProvider        D  onReceive:android.appwidget.action.APPWIDGET_UPDATE
+AppWidgetProvider        D  onReceive:android.appwidget.action.APPWIDGET_UPDATE
+LayerHistory             I  com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806 Max (can't resolve refresh rate)
+LayerHistory             I  com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806 Max (can't resolve refresh rate)
+GrantPermi...sViewModel  I  Logged buttons presented and clicked permissionGroupName=android.permission-group.NOTIFICATIONS uid=10478 package=com.nutratech.app.android presentedButtons=9 clickedButton=8 isPermissionRationaleShown=false sessionId=7087071336684019466 targetSdk=35 prompt=BASIC initialLocationPrecision=0 selectedLocationPrecision=0 locationAccuracyButtonClicked= false
+GrantPermi...sViewModel  I  Permission grant result requestId=7087071336684019466 callingUid=10478 callingPackage=com.nutratech.app.android permission=android.permission.POST_NOTIFICATIONS isImplicit=false result=6 isPermissionRationaleShown=falseisPackageRestrictedByEnhancedConfirmation=false
+PackageInfoManager_FLP   I  updatePermission, com.nutratech.app.android to 0
+InputDispatcher          D  Focused application(0): ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490}
+WindowManager            D  Changing focus from Window{fcbde57 u0 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity} to Window{abbf025 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity} displayId=0 Callers=com.android.server.wm.ActivityTaskManagerService.setLastResumedActivityUncheckLocked:264 com.android.server.wm.ActivityTaskSupervisor.updateTopResumedActivityIfNeeded:50 com.android.server.wm.TaskFragment.setResumedActivity:29 com.android.server.wm.ActivityRecord.setState:104 
+InsetsSourceProvider     D  updateControlForTarget: control=InsetsSourceControl: {b6550000 mType=statusBars initiallyVisible mSurfacePosition=Point(0, 0) mInsetsHint=Insets{left=0, top=75, right=0, bottom=0}}, target=Window{abbf025 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}, from=com.android.server.wm.InsetsStateController.onControlTargetChanged:81 com.android.server.wm.InsetsPolicy.updateBarControlTarget:175 com.android.server.wm.DisplayPolicy.updateSystemBarAttributes:269 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:375 com.android.server.wm.ActivityTaskManagerService.setLastResumedActivityUncheckLocked:264 
+InsetsSourceProvider     D  updateControlForTarget: control=InsetsSourceControl: {97ab0001 mType=navigationBars initiallyVisible mSurfacePosition=Point(0, 2256) mInsetsHint=Insets{left=0, top=0, right=0, bottom=0}}, target=Window{abbf025 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}, from=com.android.server.wm.InsetsStateController.onControlTargetChanged:81 com.android.server.wm.InsetsPolicy.updateBarControlTarget:188 com.android.server.wm.DisplayPolicy.updateSystemBarAttributes:269 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:375 com.android.server.wm.ActivityTaskManagerService.setLastResumedActivityUncheckLocked:264 
+WindowManager            D  updateSystemBarAttributes: displayId=0, focusedCanBeNavColorWin=false, win=Window{abbf025 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}, navColorWin=null, caller=com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:375 com.android.server.wm.ActivityTaskManagerService.setLastResumedActivityUncheckLocked:264 com.android.server.wm.ActivityTaskSupervisor.updateTopResumedActivityIfNeeded:50 
+SystemKeyManager         V  updateFocusedWindow() is called, com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+ActivityTaskManager      D  scheduleTopResumedActivityChanged, onTop=true, r=ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490}, caller=com.android.server.wm.ActivityTaskSupervisor.updateTopResumedActivityIfNeeded:62 com.android.server.wm.TaskFragment.setResumedActivity:29 com.android.server.wm.ActivityRecord.setState:104 com.android.server.wm.TaskFragment.resumeTopActivity:1817 com.android.server.wm.Task.resumeTopActivityInnerLocked:98 com.android.server.wm.Task.resumeTopActivityUncheckedLocked:23 
+FIAM.Headless            I  went foreground
+FIAM.Display             I  Binding to activity: com.nutratech.android.activities.BottomNavActivity
+FIAM.Headless            I  Setting display event component
+SessionLifecycleClient   D  Sending lifecycle 1 to service
+FIAM.Headless            I  Forcing fetch from service rather than cache. Test Device: false | App Fresh Install: true
+SessionLifecycleService  D  Activity foregrounding at 40450903.
+FIAM.Headless            I  Fetching campaigns from service.
+Dialog                   I  mIsDeviceDefault = true, mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+DynamiteModule           W  Local module descriptor class for com.google.android.gms.providerinstaller.dynamite not found.
+SensorManager            D  registerListener :: 1, LSM6DSO Accelerometer, 0, 0, 
+SurfaceFlinger           D  Display 4633128672291735937 HWC layers:
+                                   DEVICE |   0xb400007037a0e4d0 | 0001 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |    0    0 1080 2400 | com.nutratech.app.android/com.nutrat[...]ities.BottomNavActivity$_13746#12806 (960)
+                                   DEVICE |   0xb400007037a27910 | 0001 | RGBA_8888    |    0.0    0.0 1080.0   75.0 |    0    0 1080   75 | StatusBar$_2088#96 (6654)
+                                   DEVICE |   0xb400007037a0d190 | 0001 | RGBA_8888    |    0.0    0.0   67.0  342.0 | 1013  466 1080  808 | com.sec.android.app.launcher/com.sam[...]l.app.CocktailBarService$_2647#12602 (1)
+                                   DEVICE |   0xb400007037a2c290 | 0001 | RGBA_8888    |    0.0    0.0  388.0   60.0 |  692 2340 1080 2400 | SGestureOverlayWindow$_2647#12544 (1)
+                                   DEVICE |   0xb400007037a15bd0 | 0001 | RGBA_8888    |    0.0    0.0 1080.0  144.0 |    0 2256 1080 2400 | NavigationBar0$_2088#91 (8059)
+SurfaceFlinger           D  [input] setFocusedWindow: abbf025 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+InputDispatcher          D  Once focus requested (0): abbf025 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+InputDispatcher          D  Focus entered window (0): abbf025 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+DynamiteModule           I  Considering local module com.google.android.gms.providerinstaller.dynamite:0 and remote module com.google.android.gms.providerinstaller.dynamite:0
+ProviderInstaller        W  Failed to load providerinstaller module: No acceptable module com.google.android.gms.providerinstaller.dynamite found. Local version is 0 and remote version is 0.
+ProviderInstaller        W  Failed to report request stats: com.google.android.gms.common.security.ProviderInstallerImpl.reportRequestStats [class android.content.Context, long, long]
+SDHMS:l                  I  handleResumeComponent : put = com.nutratech.app.android, userid = 0 instanceid =39983760
+SGM:GameManager          D  identifyGamePackage. com.nutratech.app.android, mCurrentUserId: 0, callerUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:105)
+SGM:SemGameManager       D  isGamePackage(), pkgName=com.nutratech.app.android, ret=false
+InsetsSourceConsumer     I  applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+InsetsSourceConsumer     I  applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+SGM:FgCheckThread        D  noteResumeComponent(), received pkgName: com.nutratech.app.android, userId: 0
+SGM:FgCheckThread        D  onLooperPrepared(), msg: MSG_APP_RESUME, pkgName: com.nutratech.app.android, userid: 0
+SGM:FgCheckThread        D    handleResume(). pkgName: com.nutratech.app.android, userId: 0, category: non-game
+SGM:FgCheckThread        D  notifyFocusInOut(). of pkg: com.nutratech.app.android, type: 4, isSecGameFamily: false, userId: 0
+HoneySpace...rViewModel  I  cocktailHostRepository.edgePanelOperation NoteResumeComponent(componentName=ComponentInfo{com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity})
+VRI[Bottom...y]@b69a415  D  mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb4000071ed0b3cd0}
+HoneySpace...ivityUtils  I  HomePackage : com.sec.android.app.launcher, resumePackageName : com.nutratech.app.android
+SensorManager            D  registerListener :: 2, LSM6DSO Gyroscope, 0, 0, 
+InputMethodManagerUtils  D  startInputInner - Id : 0
+InputMethodManager       I  startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+ImeTracker               I  com.nutratech.app.android:b60267b4: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+ImeTracker               I  com.nutratech.app.android:b60267b4: onCancelled at PHASE_SERVER_SHOULD_HIDE
+SGM:FgCheckThread        D  getForegroundApp(), foregroundPkgName=com.nutratech.app.android
+SGM:FgCheckThread        D  noteStopComponent(), received pkgName: com.google.android.permissioncontroller, focusedPkgName: com.nutratech.app.android, userId: 0
+InputTransport           D  Input channel constructed: 'ClientS', fd=284
+SensorManager            D  registerListener :: 5, AK09918C Magnetometer, 0, 0, 
+InsetsSourceProvider     D  updateControlForTarget: control=InsetsSourceControl: {3 mType=ime mSurfacePosition=Point(0, 75) mInsetsHint=Insets{left=0, top=0, right=0, bottom=1177}}, target=Window{abbf025 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}, from=com.android.server.wm.ImeInsetsSourceProvider.updateControlForTarget:17 com.android.server.wm.InsetsStateController.onControlTargetChanged:81 com.android.server.wm.DisplayContent.updateImeControlTarget:21 com.android.server.wm.DisplayContent.updateImeInputAndControlTarget:81 com.android.server.wm.WindowManagerService$LocalService.updateInputMethodTargetWindow:21 
+HBD                      I  c [AiWriter] setContact : com.nutratech.app.android
+HBD                      I  a [AiWriter] setContact : com.nutratech.app.android
+InsetsSourceConsumer     I  applyRequestedVisibilityToControl: visible=false, type=ime, host=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{ImeContainer#16 parentId=12804 relativeParentId=12805 z=1} 1 children}] reparent to LayerHierarchy{RequestedLayerState{ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490}#12804 parentId=12758 z=3} 3 children}
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{ImeContainer#16 parentId=12804 relativeParentId=12805 z=1} 1 children}] RelativeParent to LayerHierarchy{RequestedLayerState{abbf025 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12805 parentId=12804} 2 children}
+libc                     W  Access denied finding property "vzw.os.rooted"
+HBD                      I  h [SKE_SPECIFIC] specific model[com.nutratech.app.android] loaded, 20592154 ns
+MdnieScena...rolService  D   packageName : com.nutratech.app.android    className : com.nutratech.android.activities.BottomNavActivity
+FIAM.Headless            I  Successfully fetched 0 messages from backend
+NetdEventL...nerService  D  DNS Requested by 143, 10478(com.nutratech.app.android), SUCCESS, 44ms
+SGM:GameManager          D  identifyGamePackage. com.nutratech.app.android, mCurrentUserId: 0, callerUserId: 0, callingMethodInfo: com.samsung.android.game.IGameManagerService$Stub.onTransact(IGameManagerService.java:228)
+SGM:GameManager          D  identifyForegroundApp. com.nutratech.app.android, mCurrentUserId: 0, callerUserId: 0
+SensorManager            D  unregisterListener
+VRI[Bottom...y]@b69a415  I  call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[BottomNavActivity]@b69a415
+SensorManager            D  unregisterListener
+SurfaceFlinger           I  [com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806] setFrameRateCategory: NoPreference
+SensorManager            D  unregisterListener
+LayerHistory             I  com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806 Max (can't resolve refresh rate)
+VRI[Bottom...y]@b69a415  I  ViewPostIme pointer 0
+VRI[Bottom...y]@b69a415  I  call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[BottomNavActivity]@b69a415
+SurfaceFlinger           I  [com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806] setFrameRateCategory: HighHint
+LayerHistory             I  com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806 voted ExplicitCategory with category: HighHint
+VRI[Bottom...y]@b69a415  I  ViewPostIme pointer 1
+WindowOnBackDispatcher   W  OnBackInvokedCallback is not enabled for the application.
+                            Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+System.out               I  frag prints, stack: 0, activeFrags: 1
+System.out               I  frag prints, Fragment: androidx.navigation.fragment.NavHostFragment, isAdded: true, isVisible: true
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+NC_API                   D  Headers:
+NC_API                   D  accept-language: [en_GB]
+NC_API                   D  authorization: [101675e9-2c93-4064-b971-e2be53462188]
+NC_API                   D  user-agent: [Nutracheck.android.phone]
+NC_API                   D  x-api-key: [14235533-2dcd-4c42-8a7d-84c5569738bd]
+NC_API                   D  x-app-version: [12.7.0 20182]
+NC_API                   D  x-local-timestamp: [2026-01-29T05:12:43.740Z]
+NC_API                   D  x-os-version: [35]
+NC_API                   D  x-theme: [dark]
+NC_API                   D  Headers:
+NC_API                   D  connection: [keep-alive]
+NC_API                   D  content-disposition: [inline]
+NC_API                   D  content-language: [und]
+NC_API                   D  content-type: [application/json;charset=UTF-8]
+NC_API                   D  date: [Thu, 29 Jan 2026 05:12:42 GMT]
+NC_API                   D  set-cookie: [JSESSIONID=81847C096C6D9F299DA1A935367435DB; Path=/; HttpOnly]
+NC_API                   D  transfer-encoding: [chunked]
+NC_API                   D  Body:
+NC_API                   D  {"products":[],"exercises":[]}
+NC_API                   D  Headers:
+NC_API                   D  accept-language: [en_GB]
+NC_API                   D  authorization: [101675e9-2c93-4064-b971-e2be53462188]
+NC_API                   D  user-agent: [Nutracheck.android.phone]
+NC_API                   D  x-api-key: [14235533-2dcd-4c42-8a7d-84c5569738bd]
+NC_API                   D  x-app-version: [12.7.0 20182]
+NC_API                   D  x-local-timestamp: [2026-01-29T05:12:44.000Z]
+NC_API                   D  x-os-version: [35]
+NC_API                   D  x-theme: [dark]
+NC_API                   D  Headers:
+NC_API                   D  cache-control: [private, max-age=0]
+NC_API                   D  connection: [keep-alive]
+NC_API                   D  content-language: [und]
+NC_API                   D  content-type: [application/json;charset=UTF-8]
+NC_API                   D  date: [Thu, 29 Jan 2026 05:12:43 GMT]
+NC_API                   D  etag: [2891C2495435C0E15DBEB5EF774C8C92]
+NC_API                   D  if-none-match: [2891C2495435C0E15DBEB5EF774C8C92]
+NC_API                   D  server: [nutracheck]
+NC_API                   D  set-cookie: [JSESSIONID=E3A751BFCFAD94DAB4D26E4EB25CDA88; Path=/; HttpOnly]
+NC_API                   D  Body:
+NC_API                   D  {"accountStatus":"freeLite","entries":[{"occasion":3,"productID":86108,"description":"Tomatoes, Fresh","source":"nutracheck","isCopyable":true,"timeEaten":"2026-01-29 05:12","serving":"Medium tomato (85g)","isDeletable":true,"isEditable":true,"protein":"0.4","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/08\/86108.png","fat":"0.1","id":3569423225,"isFavourite":false,"servingSize":{"measure":"g","size":85.0},"carbohydrates":"2.5","alcohol":"0.0","isFavoritable":true,"image":{"imageUrlLarge":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/large\/08\/86108.webp","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/08\/86108.png","imageUrlSmall":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/08\/86108.webp","imageUrlSmallCropped":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/cropped\/08\/86108.webp"},"fiveADay":1.06,"sugars":"2.5","salt":"0.01","isExercise":false,"saturatedFat":"0.0","sodium":"0","kcal":"12","fibre":"0.9"},{"occasion":3,"productID":132144,"description":"Red Peppers, Raw","source":"nutracheck","isCopyable":true,"timeEaten":"2026-01-29 05:09","serving":"1\/2 Medium pepper (80g)","isDeletable":true,"isEditable":true,"protein":"0.6","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/44\/132144.png","fat":"0.2","id":3569422319,"isFavourite":false,"servingSize":{"measure":"g","size":80.0},"carbohydrates":"3.4","alcohol":"0.0","isFavoritable":true,"image":{"imageUrlLarge":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/large\/44\/132144.webp","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/44\/132144.png","imageUrlSmall":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/44\/132144.webp","imageUrlSmallCropped":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/cropped\/44\/132144.webp"},"fiveADay":1.0,"sugars":"3.4","salt":"0.02","isExercise":false,"saturatedFat":"0.1","sodium":"0","kcal":"17","fibre":"1.0"},{"occasion":3,"productID":86047,"description":"Reduced Sugar Jam","source":"nutracheck","isCopyable":true,"timeEaten":"2026-01-28 09:30","serving":"Level teaspoon (8g)","isDeletable":true,"isEditable":true,"protein":"0.0","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/47\/86047.png","fat":"0.0","id":3567109213,"isFavourite":false,"servingSize":{"measure":"g","size":8.0},"carbohydrates":"2.5","alcohol":"0.0","isFavoritable":true,"image":{"imageUrlLarge":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/large\/47\/86047.webp","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/47\/86047.png","imageUrlSmall":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/47\/86047.webp","imageUrlSmallCropped":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/cropped\/47\/86047.webp"},"fiveADay":0.0,"sugars":"2.5","salt":"0.00","isExercise":false,"saturatedFat":"0.0","sodium":"0","kcal":"10","fibre":"0.1"}],"status":{"accountStatus":"freeLite","accountStatusEnum":"FREE_LITE","dateExpiry":"2023-05-24T00:00:00.000Z","dateRegistration":"2023-05-17T12:13:52.000Z","dateSinceLastUse":"2026-01-29T05:07:37.340Z","daysSinceLastUse":0,"debugIdentifier":"fb6dcfb4-91d9-48b6-8da3-b408b0341013"},"products":[{"image":{"imageUrlLarge":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/large\/08\/86108.webp","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/08\/86108.png","imageUrlSmall":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/08\/86108.webp","imageUrlSmallCropped":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/cropped\/08\/86108.webp"},"mealID":0,"productID":86108,"imageUrl":"https:\/\/d2lhwe7okuon6r.cloudf
+NetdEventL...nerService  D  DNS Requested by 143, 10478(com.nutratech.app.android), SUCCESS, 26ms
+NetdEventL...nerService  D  DNS Requested by 143, 10478(com.nutratech.app.android), SUCCESS, 29ms
+LayerHistory             I  com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806 Max (can't resolve refresh rate)
+FreecessController       D  com.nutratech.app.android(10478) is important[12]
+VRI[Bottom...y]@b69a415  I  ViewPostIme pointer 0
+LayerHistory             I  com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806 Max (can't resolve refresh rate)
+VRI[Bottom...y]@b69a415  I  ViewPostIme pointer 1
+System.out               I  frag prints, stack: 0, activeFrags: 1
+System.out               I  frag prints, Fragment: androidx.navigation.fragment.NavHostFragment, isAdded: true, isVisible: true
+ScrollView               D  initGoToTop
+ResourcesCompat          W  Failed to inflate ColorStateList, leaving it to the framework (Ask Gemini)
+                            java.lang.UnsupportedOperationException: Failed to resolve attribute at index 0: TypedValue{t=0x2/d=0x7f0400e2 a=-1}, theme={InheritanceMap=[id=0x7f140009com.nutratech.app.android:style/AppTheme.DayNight, id=0x7f140008com.nutratech.app.android:style/AppTheme, id=0x7f14000bcom.nutratech.app.android:style/AppThemeBase, id=0x7f140231com.nutratech.app.android:style/Theme.AppCompat.DayNight.NoActionBar, id=0x7f14023ecom.nutratech.app.android:style/Theme.AppCompat.NoActionBar, id=0x7f140229com.nutratech.app.android:style/Theme.AppCompat, id=0x7f14004ccom.nutratech.app.android:style/Base.Theme.AppCompat, id=0x7f1400adcom.nutratech.app.android:style/Base.V28.Theme.AppCompat, id=0x7f1400aacom.nutratech.app.android:style/Base.V26.Theme.AppCompat, id=0x7f1400a4com.nutratech.app.android:style/Base.V23.Theme.AppCompat, id=0x7f1400a2com.nutratech.app.android:style/Base.V22.Theme.AppCompat, id=0x7f140097com.nutratech.app.android:style/Base.V21.Theme.AppCompat, id=0x7f1400afcom.nutratech.app.android:style/Base.V7.Theme.AppCompat, id=0x7f14014dcom.nutratech.app.android:style/Platform.AppCompat, id=0x7f140158com.nutratech.app.android:style/Platform.V25.AppCompat, id=0x103022eandroid:style/Theme.Material.NoActionBar, id=0x1030224android:style/Theme.Material, id=0x1030005android:style/Theme], Themes=[com.nutratech.app.android:style/AppTheme.DayNight, forced, com.nutratech.app.android:style/Theme.AppCompat.Empty, forced, android:style/Theme.DeviceDefault.Light.DarkActionBar, forced]}
+                            	at android.content.res.TypedArray.getColor(TypedArray.java:533)
+                            	at androidx.core.content.res.ColorStateListInflaterCompat.inflate(SourceFile:15)
+                            	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXmlInner(SourceFile:13)
+                            	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXml(SourceFile:18)
+                            	at androidx.core.content.res.ResourcesCompat.inflateColorStateList(SourceFile:13)
+                            	at androidx.core.content.res.ResourcesCompat.getColorStateList(SourceFile:13)
+                            	at androidx.core.content.ContextCompat.getColorStateList(SourceFile:9)
+                            	at androidx.appcompat.content.res.AppCompatResources.getColorStateList(SourceFile:1)
+                            	at com.google.android.material.resources.MaterialResources.getColorStateList(SourceFile:3)
+                            	at com.google.android.material.imageview.ShapeableImageView.<init>(SourceFile:18)
+                            	at com.google.android.material.imageview.ShapeableImageView.<init>(SourceFile:2)
+                            	at java.lang.reflect.Constructor.newInstance0(Native Method)
+                            	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+                            	at android.view.LayoutInflater.createView(LayoutInflater.java:758)
+                            	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:910)
+                            	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:865)
+                            	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1027)
+                            	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+                            	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1030)
+                            	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+                            	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1030)
+                            	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+                            	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1030)
+                            	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+                            	at android.view.LayoutInflater.inflate(LayoutInflater.java:576)
+                            	at android.view.LayoutInflater.inflate(LayoutInflater.java:468)
+                            	at com.nutratech.android.fragments.AddServingFragment.onCreateView(SourceFile:5)
+                            	at androidx.fragment.app.Fragment.performCreateView(SourceFile:25)
+                            	at androidx.fragment.app.FragmentStateManager.createView(SourceFile:209)
+                            	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(SourceFile:128)
+                            	at androidx.fragment.app.FragmentManager.executeOpsTogether(SourceFile:348)
+                            	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(SourceFile:92)
+ResourcesCompat          W  	at androidx.fragment.app.FragmentManager.execPendingActions(SourceFile:22) (Ask Gemini)
+                            	at androidx.fragment.app.FragmentManager$5.run(SourceFile:4)
+                            	at android.os.Handler.handleCallback(Handler.java:959)
+                            	at android.os.Handler.dispatchMessage(Handler.java:100)
+                            	at android.os.Looper.loopOnce(Looper.java:257)
+                            	at android.os.Looper.loop(Looper.java:342)
+                            	at android.app.ActivityThread.main(ActivityThread.java:9634)
+                            	at java.lang.reflect.Method.invoke(Native Method)
+                            	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+                            	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+NC_API                   D  Headers:
+NC_API                   D  accept-language: [en_GB]
+NC_API                   D  authorization: [101675e9-2c93-4064-b971-e2be53462188]
+NC_API                   D  user-agent: [Nutracheck.android.phone]
+NC_API                   D  x-api-key: [14235533-2dcd-4c42-8a7d-84c5569738bd]
+NC_API                   D  x-app-version: [12.7.0 20182]
+NC_API                   D  x-local-timestamp: [2026-01-29T05:12:45.693Z]
+NC_API                   D  x-os-version: [35]
+NC_API                   D  x-theme: [dark]
+RecyclerView             W  No adapter attached; skipping layout
+ScrollView               D   onsize change changed 
+NC_API                   D  --> GET https://api.nutracheck.com/api/v1.1/servings?productID=132144 http/1.1
+NC_API                   D  Authorization: 101675e9-2c93-4064-b971-e2be53462188
+NC_API                   D  X-Local-timestamp: 2026-01-29T05:12:45.722Z
+NC_API                   D  X-OS-Version: 35
+NC_API                   D  accept-language: en-GB
+NC_API                   D  X-Theme: dark
+NC_API                   D  X-Api-Key: 14235533-2dcd-4c42-8a7d-84c5569738bd
+NC_API                   D  X-App-Version: 12.7.0 20182
+NC_API                   D  user-agent: Nutracheck.android.phone
+NC_API                   D  --> END GET
+NC_API                   D  Headers:
+NC_API                   D  connection: [keep-alive]
+NC_API                   D  content-disposition: [inline]
+NC_API                   D  content-language: [und]
+NC_API                   D  content-type: [application/json;charset=UTF-8]
+NC_API                   D  date: [Thu, 29 Jan 2026 05:12:44 GMT]
+NC_API                   D  set-cookie: [JSESSIONID=BAE2F8CC48B6793CCD0005D46F447E3C; Path=/; HttpOnly]
+NC_API                   D  transfer-encoding: [chunked]
+NC_API                   D  Body:
+NC_API                   D  {"products":[],"exercises":[]}
+NetdEventL...nerService  D  DNS Requested by 143, 10478(com.nutratech.app.android), SUCCESS, 29ms
+NC_API                   D  <-- 200  https://api.nutracheck.com/api/v1.1/servings?productID=132144 (166ms)
+NC_API                   D  Date: Thu, 29 Jan 2026 05:12:44 GMT
+NC_API                   D  Content-Type: application/json;charset=UTF-8
+NC_API                   D  Connection: keep-alive
+NC_API                   D  Set-Cookie: JSESSIONID=F1FDCA94FFBAB84E18694B02A4DE4B39; Path=/; HttpOnly
+NC_API                   D  Content-Language: en-GB
+NC_API                   D  
+NC_API                   D  {"image":{"imageUrlLarge":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/large\/44\/132144.webp","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/44\/132144.png","imageUrlSmall":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/44\/132144.webp","imageUrlSmallCropped":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/cropped\/44\/132144.webp"},"servings":[{"carbohydrates":"3.44","fiveADay":"1.0","sugars":"3.36","salt":"0.02","description":"1\/2 Medium pepper (80g)","isAddWeight":false,"displayPriority":1,"defaultQuantity":1.0,"pie":{"fat":{"colour":"#fe9f1d","value":8},"carbohydrates":{"colour":"#d347bd","value":78},"protein":{"colour":"#0072c6","value":14},"naturalSugars":{"colour":"#5b7727","value":76},"saturatedFat":{"colour":"#fe9f1d","value":4},"sugars":{"colour":"#d347bd","value":76}},"serving":"1\/2 Medium pepper (80g)","kcal":"17","saturatedFat":"0.08","sodium":"6","isDefault":true,"trafficLightColourCode":{"saturatedFat":{"colour":"#40b832","value":"LOW"},"sugars":{"colour":"#40b832","value":"LOW"},"salt":{"colour":"#40b832","value":"LOW"},"fat":{"colour":"#40b832","value":"LOW"}},"protein":"0.64","fat":"0.16","isCustom":false,"fibre":"0.96","factor":0.8,"five":"1.0","servingSize":{"measure":"g","size":80.0}},{"carbohydrates":"0.43","fiveADay":"0.1","sugars":"0.42","salt":"0.00","description":"1 Sliced ring (10g)","isAddWeight":false,"displayPriority":4,"pie":{"fat":{"colour":"#fe9f1d","value":8},"carbohydrates":{"colour":"#d347bd","value":78},"protein":{"colour":"#0072c6","value":14},"naturalSugars":{"colour":"#5b7727","value":76},"saturatedFat":{"colour":"#fe9f1d","value":4},"sugars":{"colour":"#d347bd","value":76}},"serving":"1 Sliced ring (10g)","kcal":"2","saturatedFat":"0.01","sodium":"1","isDefault":false,"trafficLightColourCode":{"saturatedFat":{"colour":"#40b832","value":"LOW"},"sugars":{"colour":"#40b832","value":"LOW"},"salt":{"colour":"#40b832","value":"LOW"},"fat":{"colour":"#40b832","value":"LOW"}},"protein":"0.08","fat":"0.02","isCustom":false,"fibre":"0.12","factor":0.1,"five":"0.1","servingSize":{"measure":"g","size":10.0}},{"carbohydrates":"0.86","fiveADay":"0.2","sugars":"0.84","salt":"0.00","description":"2 Sliced rings (20g)","isAddWeight":false,"displayPriority":2,"pie":{"fat":{"colour":"#fe9f1d","value":8},"carbohydrates":{"colour":"#d347bd","value":78},"protein":{"colour":"#0072c6","value":14},"naturalSugars":{"colour":"#5b7727","value":76},"saturatedFat":{"colour":"#fe9f1d","value":4},"sugars":{"colour":"#d347bd","value":76}},"serving":"2 Sliced rings (20g)","kcal":"4","saturatedFat":"0.02","sodium":"2","isDefault":false,"trafficLightColourCode":{"saturatedFat":{"colour":"#40b832","value":"LOW"},"sugars":{"colour":"#40b832","value":"LOW"},"salt":{"colour":"#40b832","value":"LOW"},"fat":{"colour":"#40b832","value":"LOW"}},"protein":"0.16","fat":"0.04","isCustom":false,"fibre":"0.24","factor":0.2,"five":"0.2","servingSize":{"measure":"g","size":20.0}},{"carbohydrates":"4.30","fiveADay":"1.2","sugars":"4.20","salt":"0.02","description":"100g (edible portion)","isAddWeight":false,"displayPriority":5,"pie":{"fat":{"colour":"#fe9f1d","value":8},"carbohydrates":{"colour":"#d347bd","value":78},"protein":{"colour":"#0072c6","value":14},"naturalSugars":{"colour":"#5b7727","value":76},"saturatedFat":{"colour":"#fe9f1d","value":4},"sugars":{"colour":"#d347bd","value":76}},"serving":"100g (edible portion)","kcal":"21","saturatedFat":"0.10","sodium":"8","isDefault":false,"trafficLightColourCode":{"saturatedFat":{"colour":"#40b832","value":"LOW"},"sugars":{"colour":"#40b832","value":"LOW"},"salt":{"colour":"#40b832","value":"LOW"},"fat":{"colour":"#40b832","value":"LOW"}},"protein":"0.80","fat":"0.20","isCustom":false,"fibre":"1.20","factor":1.0,"five":"1.2","servingSize":{"measure":"g","size":100.0}},{"carbohydrates":"6.88","fiveADay":"2.0","sugars":"6.72","salt":"0.03","description":"Medium pepper (160g)","isAddWeight":false,"displayPrior
+NC_API                   D  <-- END HTTP (5758-byte body)
+NC_API                   D  New Api GET onResponse: code:200
+NC_API                   D  New Api GET onResponse: message:{"image":{"imageUrlLarge":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/large\/44\/132144.webp","imageUrl":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/148\/44\/132144.png","imageUrlSmall":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/44\/132144.webp","imageUrlSmallCropped":"https:\/\/d2lhwe7okuon6r.cloudfront.net\/media\/productimages\/transparent\/small\/cropped\/44\/132144.webp"},"servings":[{"carbohydrates":"3.44","fiveADay":"1.0","sugars":"3.36","salt":"0.02","description":"1\/2 Medium pepper (80g)","isAddWeight":false,"displayPriority":1,"defaultQuantity":1.0,"pie":{"fat":{"colour":"#fe9f1d","value":8},"carbohydrates":{"colour":"#d347bd","value":78},"protein":{"colour":"#0072c6","value":14},"naturalSugars":{"colour":"#5b7727","value":76},"saturatedFat":{"colour":"#fe9f1d","value":4},"sugars":{"colour":"#d347bd","value":76}},"serving":"1\/2 Medium pepper (80g)","kcal":"17","saturatedFat":"0.08","sodium":"6","isDefault":true,"trafficLightColourCode":{"saturatedFat":{"colour":"#40b832","value":"LOW"},"sugars":{"colour":"#40b832","value":"LOW"},"salt":{"colour":"#40b832","value":"LOW"},"fat":{"colour":"#40b832","value":"LOW"}},"protein":"0.64","fat":"0.16","isCustom":false,"fibre":"0.96","factor":0.8,"five":"1.0","servingSize":{"measure":"g","size":80.0}},{"carbohydrates":"0.43","fiveADay":"0.1","sugars":"0.42","salt":"0.00","description":"1 Sliced ring (10g)","isAddWeight":false,"displayPriority":4,"pie":{"fat":{"colour":"#fe9f1d","value":8},"carbohydrates":{"colour":"#d347bd","value":78},"protein":{"colour":"#0072c6","value":14},"naturalSugars":{"colour":"#5b7727","value":76},"saturatedFat":{"colour":"#fe9f1d","value":4},"sugars":{"colour":"#d347bd","value":76}},"serving":"1 Sliced ring (10g)","kcal":"2","saturatedFat":"0.01","sodium":"1","isDefault":false,"trafficLightColourCode":{"saturatedFat":{"colour":"#40b832","value":"LOW"},"sugars":{"colour":"#40b832","value":"LOW"},"salt":{"colour":"#40b832","value":"LOW"},"fat":{"colour":"#40b832","value":"LOW"}},"protein":"0.08","fat":"0.02","isCustom":false,"fibre":"0.12","factor":0.1,"five":"0.1","servingSize":{"measure":"g","size":10.0}},{"carbohydrates":"0.86","fiveADay":"0.2","sugars":"0.84","salt":"0.00","description":"2 Sliced rings (20g)","isAddWeight":false,"displayPriority":2,"pie":{"fat":{"colour":"#fe9f1d","value":8},"carbohydrates":{"colour":"#d347bd","value":78},"protein":{"colour":"#0072c6","value":14},"naturalSugars":{"colour":"#5b7727","value":76},"saturatedFat":{"colour":"#fe9f1d","value":4},"sugars":{"colour":"#d347bd","value":76}},"serving":"2 Sliced rings (20g)","kcal":"4","saturatedFat":"0.02","sodium":"2","isDefault":false,"trafficLightColourCode":{"saturatedFat":{"colour":"#40b832","value":"LOW"},"sugars":{"colour":"#40b832","value":"LOW"},"salt":{"colour":"#40b832","value":"LOW"},"fat":{"colour":"#40b832","value":"LOW"}},"protein":"0.16","fat":"0.04","isCustom":false,"fibre":"0.24","factor":0.2,"five":"0.2","servingSize":{"measure":"g","size":20.0}},{"carbohydrates":"4.30","fiveADay":"1.2","sugars":"4.20","salt":"0.02","description":"100g (edible portion)","isAddWeight":false,"displayPriority":5,"pie":{"fat":{"colour":"#fe9f1d","value":8},"carbohydrates":{"colour":"#d347bd","value":78},"protein":{"colour":"#0072c6","value":14},"naturalSugars":{"colour":"#5b7727","value":76},"saturatedFat":{"colour":"#fe9f1d","value":4},"sugars":{"colour":"#d347bd","value":76}},"serving":"100g (edible portion)","kcal":"21","saturatedFat":"0.10","sodium":"8","isDefault":false,"trafficLightColourCode":{"saturatedFat":{"colour":"#40b832","value":"LOW"},"sugars":{"colour":"#40b832","value":"LOW"},"salt":{"colour":"#40b832","value":"LOW"},"fat":{"colour":"#40b832","value":"LOW"}},"protein":"0.80","fat":"0.20","isCustom":false,"fibre":"1.20","factor":1.0,"five":"1.2","servingSize":{"measure":"g","size":100.0}},{"carbohydrates":"6.88","fiveADay":"2.0","sugars":"6.72","salt":"0.03","description":"Medium pepper (160g)","
+InputMethodManager       I  invalidateInput
+InputMethodManager       I  invalidateInput
+InputMethodManagerUtils  D  startInputInner - Id : 0
+InputMethodManager       I  startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+InputTransport           D  Input channel constructed: 'ClientS', fd=316
+HBD                      I  c [AiWriter] setContact : com.nutratech.app.android
+SGM:GameManager          D  identifyForegroundApp. com.nutratech.app.android, mCurrentUserId: 0, callerUserId: 0
+LayerHistory             I  com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806 Max (can't resolve refresh rate)
+VRI[Bottom...y]@b69a415  I  ViewPostIme pointer 0
+LayerHistory             I  com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806 Max (can't resolve refresh rate)
+VRI[Bottom...y]@b69a415  I  ViewPostIme pointer 1
+NC_API                   D  --> POST https://api.nutracheck.com/api/v1/servings http/1.1
+NC_API                   D  Content-Type: application/json; charset=utf-8
+NC_API                   D  Content-Length: 158
+NC_API                   D  Authorization: 101675e9-2c93-4064-b971-e2be53462188
+NC_API                   D  X-Local-timestamp: 2026-01-29T05:12:47.213Z
+NC_API                   D  Accept: application/json
+NC_API                   D  X-OS-Version: 35
+NC_API                   D  accept-language: en-GB
+NC_API                   D  X-Theme: dark
+NC_API                   D  X-Api-Key: 14235533-2dcd-4c42-8a7d-84c5569738bd
+NC_API                   D  X-App-Version: 12.7.0 20182
+NC_API                   D  user-agent: Nutracheck.android.phone
+NC_API                   D  
+NC_API                   D  {"productID":132144,"date":"2026-01-29","factor":"0.80000","quantity":"1.000","serving":"1\/2 Medium pepper (80g)","occasionTag":"Dinner","diaryTime":"05:12"}
+NC_API                   D  --> END POST (158-byte body)
+NC_API                   D  <-- 423  https://api.nutracheck.com/api/v1/servings (221ms)
+NC_API                   D  Date: Thu, 29 Jan 2026 05:12:46 GMT
+NC_API                   D  Content-Length: 0
+NC_API                   D  Connection: keep-alive
+NC_API                   D  Set-Cookie: JSESSIONID=2305389BA987DA03229DCB21C39B9F0D; Path=/; HttpOnly
+NC_API                   D  Content-Language: en-GB
+NC_API                   D  <-- END HTTP (0-byte body)
+Dialog                   I  mIsDeviceDefault = false, mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+DecorView                I  setWindowBackground: isPopOver=false color=0 d=android.graphics.drawable.ColorDrawable@161308f
+WindowManager            I  WindowManagerGlobal#addView, ty=2, view=com.android.internal.policy.DecorView{e55f5dd V.E...... R.....I. 0,0-0,0}[BottomNavActivity], caller=android.view.WindowManagerImpl.addView:158 android.app.Dialog.show:511 com.nutratech.android.lib.activities.NutratechSecuredActivity.customSubscriptionPopup:31 
+ViewRootImpl             I  dVRR is disabled
+NativeCust...ncyManager  D  [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+SurfaceFlinger           I  id=12852 createSurf, flag=84004, 257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12852
+InputTransport           D  Input channel constructed: '257dfe4', fd=309
+InsetsController         I  onStateChanged: host=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity, from=android.view.ViewRootImpl.setView:1999, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2400), mDisplayCutout=DisplayCutout{insets=Rect(0, 75 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 569, 75), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.8125} cutoutSpec={M 0, 0 H -10.13333333333333 V 26.66666666666667 H 10.13333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=108, center=Point(108, 108)}, RoundedCorner{position=TopRight, radius=108, center=Point(972, 108)}, RoundedCorner{position=BottomRight, radius=108, center=Point(972, 2292)}, RoundedCorner{position=BottomLeft, radius=108, center=Point(108, 2292)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2400), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 75) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2400 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {97ab0001 mType=navigationBars mFrame=[0,0][0,0] mVisible=true mFlags=SUPPRESS_SCRIM mSideHint=NONE mBoundingRects=null}, InsetsSource: {97ab0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {97ab0005 mType=mandatorySystemGestures mFrame=[0,2325][1080,2400] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {97ab0006 mType=tappableElement mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {97ab0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {b6550000 mType=statusBars mFrame=[0,0][1080,75] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {b6550005 mType=mandatorySystemGestures mFrame=[0,0][1080,111] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {b6550006 mType=tappableElement mFrame=[0,0][1080,75] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,75] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+VRI[Bottom...y]@1713552  I  synced displayState. AttachInfo displayState=2
+VRI[Bottom...y]@1713552  I  setView = com.android.internal.policy.DecorView@e55f5dd IsHRR=false TM=true
+NC_API                   D  New APi POST onError: message: null
+NC_API                   D  New APi POST onError: errorDetail: responseFromServerError
+NC_API                   D  New APi POST onError: errorBody: 
+SurfaceFlinger           I  [257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12852] attach to parent LayerHierarchy{RequestedLayerState{ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490}#12804 parentId=12758 z=3} 4 children}
+CoreBackPreview          D  Window{257dfe4 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@df71049, mPriority=0, mIsAnimationCallback=false}
+WindowManager            V  Relayout Window{257dfe4 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}: viewVisibility=0 req=840x1041 ty=2 d0
+SurfaceFlinger           I  id=12853 createSurf, flag=44004, com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12853
+WindowManager            D  makeSurface duration=1 name=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746
+WindowManager            D  Changing focus from Window{abbf025 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity} to Window{257dfe4 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity} displayId=0 Callers=com.android.server.wm.WindowManagerService.relayoutWindowInner:142 com.android.server.wm.WindowManagerService.relayoutWindow:6 com.android.server.wm.Session.relayout:27 android.view.IWindowSession$Stub.onTransact:861 
+InsetsSourceProvider     D  updateControlForTarget: control=InsetsSourceControl: {b6550000 mType=statusBars initiallyVisible mSurfacePosition=Point(0, 0) mInsetsHint=Insets{left=0, top=75, right=0, bottom=0}}, target=Window{257dfe4 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}, from=com.android.server.wm.InsetsStateController.onControlTargetChanged:81 com.android.server.wm.InsetsPolicy.updateBarControlTarget:175 com.android.server.wm.DisplayPolicy.updateSystemBarAttributes:269 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:375 com.android.server.wm.WindowManagerService.relayoutWindowInner:142 
+InsetsSourceProvider     D  updateControlForTarget: control=InsetsSourceControl: {97ab0001 mType=navigationBars initiallyVisible mSurfacePosition=Point(0, 2256) mInsetsHint=Insets{left=0, top=0, right=0, bottom=0}}, target=Window{257dfe4 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}, from=com.android.server.wm.InsetsStateController.onControlTargetChanged:81 com.android.server.wm.InsetsPolicy.updateBarControlTarget:188 com.android.server.wm.DisplayPolicy.updateSystemBarAttributes:269 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:375 com.android.server.wm.WindowManagerService.relayoutWindowInner:142 
+SystemKeyManager         V  updateFocusedWindow() is called, com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+InsetsController         I  onStateChanged: host=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity, from=android.view.ViewRootImpl.relayoutWindow:11304, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2400), mDisplayCutout=DisplayCutout{insets=Rect(0, 75 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 569, 75), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.8125} cutoutSpec={M 0, 0 H -10.13333333333333 V 26.66666666666667 H 10.13333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=108, center=Point(108, 108)}, RoundedCorner{position=TopRight, radius=108, center=Point(972, 108)}, RoundedCorner{position=BottomRight, radius=108, center=Point(972, 2292)}, RoundedCorner{position=BottomLeft, radius=108, center=Point(108, 2292)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2400), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 75) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2400 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {97ab0001 mType=navigationBars mFrame=[0,0][0,0] mVisible=true mFlags=SUPPRESS_SCRIM mSideHint=NONE mBoundingRects=null}, InsetsSource: {97ab0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {97ab0005 mType=mandatorySystemGestures mFrame=[0,2325][1080,2400] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {97ab0006 mType=tappableElement mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {97ab0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {b6550000 mType=statusBars mFrame=[0,0][1080,75] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {b6550005 mType=mandatorySystemGestures mFrame=[0,0][1080,111] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {b6550006 mType=tappableElement mFrame=[0,0][1080,75] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,75] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+BLASTBufferQueue_Java    I  new BLASTBufferQueue, mName= VRI[BottomNavActivity]@1713552 mNativeObject= 0xb4000072bd0d8330 sc.mNativeObject= 0xb4000072cd0551d0 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3397 android.view.ViewRootImpl.relayoutWindow:11361 android.view.ViewRootImpl.performTraversals:4544 android.view.ViewRootImpl.doTraversal:3708 android.view.ViewRootImpl$TraversalRunnable.run:12542 android.view.Choreographer$CallbackRecord.run:1751 android.view.Choreographer$CallbackRecord.run:1760 android.view.Choreographer.doCallbacks:1216 android.view.Choreographer.doFrame:1142 android.view.Choreographer$FrameDisplayEventReceiver.run:1707 
+BLASTBufferQueue_Java    I  update, w= 840 h= 1041 mName = VRI[BottomNavActivity]@1713552 mNativeObject= 0xb4000072bd0d8330 sc.mNativeObject= 0xb4000072cd0551d0 format= -2 caller= android.graphics.BLASTBufferQueue.<init>:88 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3397 android.view.ViewRootImpl.relayoutWindow:11361 android.view.ViewRootImpl.performTraversals:4544 android.view.ViewRootImpl.doTraversal:3708 android.view.ViewRootImpl$TraversalRunnable.run:12542 
+SurfaceFlinger           I  Layer [257dfe4 com.nutratech.app.android/co[...]d.activities.BottomNavActivity#12852] hidden!! flag(4096)
+SurfaceFlinger           I  [com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12853] attach to parent LayerHierarchy{RequestedLayerState{257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12852 parentId=12804 z=1} 1 children}
+VRI[Bottom...y]@1713552  I  Relayout returned: old=(0,75,1080,2400) new=(120,717,960,1758) relayoutAsync=false req=(840,1041)0 dur=7 res=0x3 s={true 0xb4000071ed02dae0} ch=true seqId=0
+VRI[Bottom...y]@1713552  I  performConfigurationChange setNightDimText nightDimLevel=0
+VRI[Bottom...y]@1713552  D  mThreadedRenderer.initialize() mSurface={isValid=true 0xb4000071ed02dae0} hwInitialized=true
+VRI[Bottom...y]@1713552  D  reportNextDraw android.view.ViewRootImpl.performTraversals:5193 android.view.ViewRootImpl.doTraversal:3708 android.view.ViewRootImpl$TraversalRunnable.run:12542 android.view.Choreographer$CallbackRecord.run:1751 android.view.Choreographer$CallbackRecord.run:1760 
+VRI[Bottom...y]@1713552  D  Setup new sync=wmsSync-VRI[BottomNavActivity]@1713552#12
+VRI[Bottom...y]@1713552  I  Creating new active sync group VRI[BottomNavActivity]@1713552#13
+VRI[Bottom...y]@1713552  D  registerCallbacksForSync syncBuffer=false
+VRI[Bottom...y]@1713552  D  Received frameDrawingCallback syncResult=0 frameNum=1.
+VRI[Bottom...y]@1713552  I  mWNT: t=0xb4000071ad12aa10 mBlastBufferQueue=0xb4000072bd0d8330 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$11.onFrameDraw:15016 android.view.ThreadedRenderer$1.onFrameDraw:761 <bottom of call stack> 
+VRI[Bottom...y]@1713552  I  Setting up sync and frameCommitCallback
+BLASTBufferQueue         I  [VRI[BottomNavActivity]@1713552#6](f:0,a:0,s:0) onFrameAvailable the first frame is available
+VRI[Bottom...y]@1713552  I  Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+SurfaceFlinger           I  [com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12853] setTransactionState with the first frame. bufferData(ID: 59038620450840, frameNumber: 1)
+HWUI                     D  CFMS:: SetUp Pid : 13746    Tid : 13828
+VRI[Bottom...y]@1713552  D  reportDrawFinished seqId=0
+WindowManager            D  finishDrawingWindow: Window{257dfe4 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity} mDrawState=DRAW_PENDING seqId=0
+HWUI                     D  HWUI - treat SMPTE_170M as sRGB
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{ImeContainer#16 parentId=12804 relativeParentId=12852 z=1} 1 children}] RelativeParent to LayerHierarchy{RequestedLayerState{257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12852 parentId=12804 z=1} 2 children}
+WindowManager            I  Reparenting to leash, surface=Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81, syncState=0, syncCommitDepth=0, leashParent=Surface(name=ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490})/@0xa79123
+InsetsSourceConsumer     I  applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+SurfaceFlinger           I  id=12856 createSurf, flag=24004, Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12856
+InsetsSourceConsumer     I  applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+WindowManager            D  makeSurface duration=1 leash=Surface(name=Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation)/@0xd24c826
+WindowManager            V  performShowLocked: mDrawState=HAS_DRAWN in Window{257dfe4 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}
+SurfaceFlinger           D  [input] setFocusedWindow: 257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+InputDispatcher          D  Once focus requested (0): 257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+InputDispatcher          D  Focus request (0): 257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity but waiting because NOT_VISIBLE
+InputDispatcher          D  Focus left window (0): abbf025 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+ImeFocusController       I  onPreWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+ImeFocusController       I  onPostWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+SurfaceFlinger           I  [Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12856] attach to parent LayerHierarchy{RequestedLayerState{ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490}#12804 parentId=12758 z=3} 5 children}
+SurfaceFlinger           E  alpha changed 1.000 -> 0.000 - Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12856
+SurfaceFlinger           I  Layer [Surface(name=257dfe4 com.nutratech.a[...]tion-leash of window_animation#12856] hidden!! flag(0)
+SurfaceFlinger           E  alpha changed 0.000 -> 0.000 - Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12856
+SurfaceFlinger           I  Layer [com.nutratech.app.android/com.nutrat[...]ities.BottomNavActivity$_13746#12853] hidden!! flag(0)
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12852 parentId=12856 z=1} 2 children}] reparent to LayerHierarchy{RequestedLayerState{Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12856 parentId=12804 z=1} 1 children}
+SurfaceFlinger           E  alpha changed 0.000 -> 0.169 - Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12856
+SurfaceFlinger           D  Display 4633128672291735937 HWC layers:
+                                   DEVICE |   0xb400007037a23310 | 0001 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |    0    0 1080 2400 | com.nutratech.app.android/com.nutrat[...]ities.BottomNavActivity$_13746#12806 (1139)
+                                   DEVICE |   0xb4000070379ce510 | 0001 | RGBA_8888    |    0.0    0.0  840.0 1041.0 |  154  759  926 1716 | com.nutratech.app.android/com.nutrat[...]ities.BottomNavActivity$_13746#12853 (1)
+                                   DEVICE |   0xb400007037a27910 | 0001 | RGBA_8888    |    0.0    0.0 1080.0   75.0 |    0    0 1080   75 | StatusBar$_2088#96 (6654)
+                                   DEVICE |   0xb400007037a0d190 | 0001 | RGBA_8888    |    0.0    0.0   67.0  342.0 | 1013  466 1080  808 | com.sec.android.app.launcher/com.sam[...]l.app.CocktailBarService$_2647#12602 (1)
+                                   DEVICE |   0xb400007037a2c290 | 0001 | RGBA_8888    |    0.0    0.0  388.0   60.0 |  692 2340 1080 2400 | SGestureOverlayWindow$_2647#12544 (1)
+                                   DEVICE |   0xb400007037a15bd0 | 0001 | RGBA_8888    |    0.0    0.0 1080.0  144.0 |    0 2256 1080
+InputDispatcher          D  Focus entered window (0): 257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+VRI[Bottom...y]@1713552  D  mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb4000071ed02dae0}
+InputMethodManagerUtils  D  startInputInner - Id : 0
+InputMethodManager       I  startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+ImeTracker               I  com.nutratech.app.android:2e013948: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+ImeTracker               I  com.nutratech.app.android:2e013948: onCancelled at PHASE_SERVER_SHOULD_HIDE
+SurfaceFlinger           D  Display 4633128672291735937 HWC layers:
+                                   DEVICE |   0xb400007037a0e4d0 | 0001 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |    0    0 1080 2400 | com.nutratech.app.android/com.nutrat[...]ities.BottomNavActivity$_13746#12806 (1140)
+                              SOLID_COLOR |                      | 0001 | Unknown      |    0.0    0.0    0.0    0.0 |    0    0 1080 2400 | Dim Layer for - Task=1490#12857
+                                   DEVICE |   0xb4000070379ce510 | 0001 | RGBA_8888    |    0.0    0.0  840.0 1041.0 |  148  752  932 1723 | com.nutratech.app.android/com.nutrat[...]ities.BottomNavActivity$_13746#12853 (1)
+                                   DEVICE |   0xb400007037a27910 | 0001 | RGBA_8888    |    0.0    0.0 1080.0   75.0 |    0    0 1080   75 | StatusBar$_2088#96 (6654)
+                                   DEVICE |   0xb400007037a0d190 | 0001 | RGBA_8888    |    0.0    0.0   67.0  342.0 | 1013  466 1080  808 | com.sec.android.app.launcher/com.sam[...]l.app.CocktailBarService$_2647#12602 (1)
+                                   DEVICE |   0xb400007037a2c290 | 0001 | RGBA_8888    |    0.0    0.0  388.0   60.0 |  692 2340 1080 2400 
+InputTransport           D  Input channel constructed: 'ClientS', fd=307
+HBD                      I  c [AiWriter] setContact : com.nutratech.app.android
+InsetsSourceProvider     D  updateControlForTarget: control=InsetsSourceControl: {3 mType=ime mSurfacePosition=Point(0, 75) mInsetsHint=Insets{left=0, top=0, right=0, bottom=1177}}, target=Window{257dfe4 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}, from=com.android.server.wm.ImeInsetsSourceProvider.updateControlForTarget:17 com.android.server.wm.InsetsStateController.onControlTargetChanged:81 com.android.server.wm.DisplayContent.updateImeControlTarget:21 com.android.server.wm.DisplayContent.updateImeInputAndControlTarget:81 com.android.server.wm.WindowManagerService$LocalService.updateInputMethodTargetWindow:21 
+InsetsSourceConsumer     I  applyRequestedVisibilityToControl: visible=false, type=ime, host=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{ImeContainer#16 parentId=12804 relativeParentId=12852 z=1} 1 children}] RelativeParent to LayerHierarchy{RequestedLayerState{257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12852 parentId=12856 z=1} 3 children}
+WindowManager            I  Reparenting to original parent: Surface(name=ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490})/@0xa79123, destroy=true, syncState=0, syncCommitDepth=0, surface=Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12856 z=1} 1 children}] reparent to OffscreenRoot
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12856 z=1} 1 children}] RelativeParent to null
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12852 parentId=12804 z=1} 3 children}] reparent to LayerHierarchy{RequestedLayerState{ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490}#12804 parentId=12758 z=3} 4 children}
+SurfaceFlinger           I  id=12856 Removed Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12856 (201)
+SurfaceFlinger           I  destroyed Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12856
+Layer                    I  id=12856 Destroyed Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12856
+SGM:GameManager          D  identifyForegroundApp. com.nutratech.app.android, mCurrentUserId: 0, callerUserId: 0
+LayerHistory             I  com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12853 Max (can't resolve refresh rate)
+LayerHistory             I  com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806 Max (can't resolve refresh rate)
+VRI[Bottom...y]@b69a415  I  call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[BottomNavActivity]@b69a415
+SurfaceFlinger           I  [com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806] setFrameRateCategory: NoPreference
+FreecessController       D  com.nutratech.app.android(10478) is important[12]
+VRI[Bottom...y]@1713552  I  ViewPostIme pointer 0
+VRI[Bottom...y]@1713552  I  ViewPostIme pointer 1
+WindowManager            I  WindowManagerGlobal#removeView, ty=2, view=com.android.internal.policy.DecorView{e55f5dd V.E...... R....... 0,0-840,1041 aid=1073741899}[BottomNavActivity], caller=android.view.WindowManagerGlobal.removeView:626 android.view.WindowManagerImpl.removeViewImmediate:216 android.app.Dialog.dismissDialog:808 
+WindowOnBackDispatcher   W  sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda15@449549e
+CoreBackPreview          D  Window{257dfe4 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}: Setting back callback null
+VRI[Bottom...y]@1713552  I  dispatchDetachedFromWindow
+InputManager-JNI         W  Input channel object '257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity (client)' was disposed without first being removed with the input manager!
+WindowManager            V  Remove Window{257dfe4 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}: mSurfaceController=Surface(name=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746)/@0x7d4ce5 mAnimatingExit=false mRemoveOnExit=false mHasSurface=true surfaceShowing=true animating=false app-animation=false mDisplayFrozen=false callers=com.android.server.wm.Session.remove:16 android.view.IWindowSession$Stub.onTransact:794 com.android.server.wm.Session.onTransact:1 android.os.Binder.execTransactInternal:1536 android.os.Binder.execTransact:1480 <bottom of call stack> 
+WindowManager            I  Reparenting to leash, surface=Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81, syncState=0, syncCommitDepth=0, leashParent=Surface(name=ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490})/@0xa79123
+SurfaceFlinger           I  id=12859 createSurf, flag=24000, Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12859
+WindowManager            D  makeSurface duration=1 leash=Surface(name=Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation)/@0xa6c626b
+WindowManager            D  Changing focus from Window{257dfe4 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity EXITING} to Window{abbf025 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity} displayId=0 Callers=com.android.server.wm.WindowState.removeIfPossible:600 com.android.server.wm.Session.remove:16 android.view.IWindowSession$Stub.onTransact:794 com.android.server.wm.Session.onTransact:1 
+InsetsSourceProvider     D  updateControlForTarget: control=InsetsSourceControl: {b6550000 mType=statusBars initiallyVisible mSurfacePosition=Point(0, 0) mInsetsHint=Insets{left=0, top=75, right=0, bottom=0}}, target=Window{abbf025 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}, from=com.android.server.wm.InsetsStateController.onControlTargetChanged:81 com.android.server.wm.InsetsPolicy.updateBarControlTarget:175 com.android.server.wm.DisplayPolicy.updateSystemBarAttributes:269 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:375 com.android.server.wm.WindowState.removeIfPossible:600 
+InsetsSourceProvider     D  updateControlForTarget: control=InsetsSourceControl: {97ab0001 mType=navigationBars initiallyVisible mSurfacePosition=Point(0, 2256) mInsetsHint=Insets{left=0, top=0, right=0, bottom=0}}, target=Window{abbf025 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}, from=com.android.server.wm.InsetsStateController.onControlTargetChanged:81 com.android.server.wm.InsetsPolicy.updateBarControlTarget:188 com.android.server.wm.DisplayPolicy.updateSystemBarAttributes:269 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:375 com.android.server.wm.WindowState.removeIfPossible:600 
+SystemKeyManager         V  updateFocusedWindow() is called, com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+InputEventReceiver       W  Attempted to finish an input event but the input event receiver has already been disposed.
+InputTransport           D  Input channel destroyed: '257dfe4', fd=309
+InsetsSourceConsumer     I  applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+InsetsSourceConsumer     I  applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+InsetsController         I  onStateChanged: host=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity, from=android.view.ViewRootImpl.handleInsetsControlChanged:2888, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2400), mDisplayCutout=DisplayCutout{insets=Rect(0, 75 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 569, 75), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.8125} cutoutSpec={M 0, 0 H -10.13333333333333 V 26.66666666666667 H 10.13333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=108, center=Point(108, 108)}, RoundedCorner{position=TopRight, radius=108, center=Point(972, 108)}, RoundedCorner{position=BottomRight, radius=108, center=Point(972, 2292)}, RoundedCorner{position=BottomLeft, radius=108, center=Point(108, 2292)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2400), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 75) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2400 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {97ab0001 mType=navigationBars mFrame=[0,0][0,0] mVisible=true mFlags=SUPPRESS_SCRIM mSideHint=NONE mBoundingRects=null}, InsetsSource: {97ab0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {97ab0005 mType=mandatorySystemGestures mFrame=[0,2325][1080,2400] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {97ab0006 mType=tappableElement mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {97ab0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {b6550000 mType=statusBars mFrame=[0,0][1080,75] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {b6550005 mType=mandatorySystemGestures mFrame=[0,0][1080,111] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {b6550006 mType=tappableElement mFrame=[0,0][1080,75] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,75] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{ImeContainer#16 parentId=12804 relativeParentId=12805 z=1} 1 children}] RelativeParent to LayerHierarchy{RequestedLayerState{abbf025 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12805 parentId=12804} 2 children}
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12852 parentId=12859 z=1} 2 children}] reparent to LayerHierarchy{RequestedLayerState{Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12859 parentId=12804 z=1} 1 children}
+SurfaceFlinger           I  [Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12859] attach to parent LayerHierarchy{RequestedLayerState{ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490}#12804 parentId=12758 z=3} 4 children}
+SurfaceFlinger           D  [input] setFocusedWindow: abbf025 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+InputDispatcher          D  Focus left window (0): 257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+InputDispatcher          D  Once focus requested (0): abbf025 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+InputDispatcher          D  Focus entered window (0): abbf025 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+VRI[Bottom...y]@b69a415  D  mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb4000071ed0b3cd0}
+InputMethodManagerUtils  D  startInputInner - Id : 0
+InputMethodManager       I  startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+ImeTracker               I  com.nutratech.app.android:5b35b276: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+ImeTracker               I  com.nutratech.app.android:5b35b276: onCancelled at PHASE_SERVER_SHOULD_HIDE
+InputTransport           D  Input channel constructed: 'ClientS', fd=255
+InsetsSourceProvider     D  updateControlForTarget: control=InsetsSourceControl: {3 mType=ime mSurfacePosition=Point(0, 75) mInsetsHint=Insets{left=0, top=0, right=0, bottom=1177}}, target=Window{abbf025 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}, from=com.android.server.wm.ImeInsetsSourceProvider.updateControlForTarget:17 com.android.server.wm.InsetsStateController.onControlTargetChanged:81 com.android.server.wm.DisplayContent.updateImeControlTarget:21 com.android.server.wm.DisplayContent.updateImeInputAndControlTarget:81 com.android.server.wm.WindowManagerService$LocalService.updateInputMethodTargetWindow:21 
+HBD                      I  c [AiWriter] setContact : com.nutratech.app.android
+InsetsSourceConsumer     I  applyRequestedVisibilityToControl: visible=false, type=ime, host=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{ImeContainer#16 parentId=12804 relativeParentId=12805 z=1} 1 children}] RelativeParent to LayerHierarchy{RequestedLayerState{abbf025 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12805 parentId=12804} 2 children}
+SurfaceFlinger           E  alpha changed 0.000 -> 0.000 - Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12859
+SurfaceFlinger           D  Display 4633128672291735937 HWC layers:
+                                   DEVICE |   0xb400007037a23310 | 0001 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |    0    0 1080 2400 | com.nutratech.app.android/com.nutrat[...]ities.BottomNavActivity$_13746#12806 (1151)
+                              SOLID_COLOR |                      | 0001 | Unknown      |    0.0    0.0    0.0    0.0 |    0    0 1080 2400 | Dim Layer for - Task=1490#12857
+                                   DEVICE |   0xb400007037a27910 | 0001 | RGBA_8888    |    0.0    0.0 1080.0   75.0 |    0    0 1080   75 | StatusBar$_2088#96 (6654)
+                                   DEVICE |   0xb400007037a0d190 | 0001 | RGBA_8888    |    0.0    0.0   67.0  342.0 | 1013  466 1080  808 | com.sec.android.app.launcher/com.sam[...]l.app.CocktailBarService$_2647#12602 (1)
+                                   DEVICE |   0xb400007037a2c290 | 0001 | RGBA_8888    |    0.0    0.0  388.0   60.0 |  692 2340 1080 2400 | SGestureOverlayWindow$_2647#12544 (1)
+                                   DEVICE |   0xb400007037a15bd0 | 0001 | RGBA_8888    |    0.0    0.0 1080.0  144.0 |    0 2256 1080 2400 | NavigationBar0$_2088#91 (8059)
+WindowManager            I  Reparenting to original parent: Surface(name=ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490})/@0xa79123, destroy=true, syncState=0, syncCommitDepth=0, surface=Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81
+WindowManager            E  win=Window{257dfe4 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity EXITING} destroySurfaces: appStopped=false cleanupOnResume=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=0 caller=com.android.server.wm.WindowState.onExitAnimationDone:222 com.android.server.wm.WindowState.onAnimationFinished:161 com.android.server.wm.WindowContainer$$ExternalSyntheticLambda5.onAnimationFinished:26 com.android.server.wm.SurfaceAnimator$$ExternalSyntheticLambda1.run:28 com.android.server.wm.SurfaceAnimator$$ExternalSyntheticLambda0.onAnimationFinished:65 com.android.server.wm.LocalAnimationAdapter$$ExternalSyntheticLambda0.run:10 android.os.Handler.handleCallback:959 
+WindowManager            I  Destroying surface Surface(name=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746)/@0x7d4ce5 called by com.android.server.wm.WindowStateAnimator.destroySurface:11 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:54 com.android.server.wm.WindowState.destroySurfaceUnchecked:5 com.android.server.wm.WindowState.destroySurface:126 com.android.server.wm.WindowState.onExitAnimationDone:222 com.android.server.wm.WindowState.onAnimationFinished:161 com.android.server.wm.WindowContainer$$ExternalSyntheticLambda5.onAnimationFinished:26 com.android.server.wm.SurfaceAnimator$$ExternalSyntheticLambda1.run:28 
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12853} no children}] reparent to OffscreenRoot
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12853} no children}] RelativeParent to null
+SurfaceFlinger           I  Layer [com.nutratech.app.android/com.nutrat[...]ities.BottomNavActivity$_13746#12853] hidden!! flag(1)
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12852 z=1} 1 children}] reparent to OffscreenRoot
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12852 z=1} 1 children}] RelativeParent to null
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12859 z=1} no children}] reparent to OffscreenRoot
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12859 z=1} no children}] RelativeParent to null
+SurfaceFlinger           I  id=12853 Removed com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12853 (201)
+SurfaceFlinger           I  id=12859 Removed Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12859 (201)
+SurfaceFlinger           I  id=12852 Removed 257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12852 (201)
+SurfaceFlinger           D  Display 4633128672291735937 HWC layers:
+                                   DEVICE |   0xb400007037a23310 | 0001 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |    0    0 1080 2400 | com.nutratech.app.android/com.nutrat[...]ities.BottomNavActivity$_13746#12806 (1151)
+                                   DEVICE |   0xb400007037a27910 | 0001 | RGBA_8888    |    0.0    0.0 1080.0   75.0 |    0    0 1080   75 | StatusBar$_2088#96 (6654)
+                                   DEVICE |   0xb400007037a0d190 | 0001 | RGBA_8888    |    0.0    0.0   67.0  342.0 | 1013  466 1080  808 | com.sec.android.app.launcher/com.sam[...]l.app.CocktailBarService$_2647#12602 (1)
+                                   DEVICE |   0xb400007037a2c290 | 0001 | RGBA_8888    |    0.0    0.0  388.0   60.0 |  692 2340 1080 2400 | SGestureOverlayWindow$_2647#12544 (1)
+                                   DEVICE |   0xb400007037a15bd0 | 0001 | RGBA_8888    |    0.0    0.0 1080.0  144.0 |    0 2256 1080 2400 | NavigationBar0$_2088#91 (8059)
+SurfaceFlinger           I  destroyed 257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12852
+SurfaceFlinger           I  destroyed Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12859
+SurfaceFlinger           I  destroyed com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12853
+Layer                    I  id=12853 Destroyed com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12853
+Layer                    I  id=12859 Destroyed Surface(name=257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x72b7f81 - animation-leash of window_animation#12859
+Layer                    I  id=12852 Destroyed 257dfe4 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12852
+VRI[Bottom...y]@b69a415  I  ViewPostIme pointer 0
+VRI[Bottom...y]@b69a415  I  call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[BottomNavActivity]@b69a415
+SurfaceFlinger           I  [com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806] setFrameRateCategory: HighHint
+VRI[Bottom...y]@b69a415  I  ViewPostIme pointer 1
+NC_API                   D  --> POST https://api.nutracheck.com/api/v1/servings http/1.1
+NC_API                   D  Content-Type: application/json; charset=utf-8
+NC_API                   D  Content-Length: 158
+NC_API                   D  Authorization: 101675e9-2c93-4064-b971-e2be53462188
+NC_API                   D  X-Local-timestamp: 2026-01-29T05:12:51.266Z
+NC_API                   D  Accept: application/json
+NC_API                   D  X-OS-Version: 35
+NC_API                   D  accept-language: en-GB
+NC_API                   D  X-Theme: dark
+NC_API                   D  X-Api-Key: 14235533-2dcd-4c42-8a7d-84c5569738bd
+NC_API                   D  X-App-Version: 12.7.0 20182
+NC_API                   D  user-agent: Nutracheck.android.phone
+NC_API                   D  
+NC_API                   D  {"productID":132144,"date":"2026-01-29","factor":"0.80000","quantity":"1.000","serving":"1\/2 Medium pepper (80g)","occasionTag":"Dinner","diaryTime":"05:12"}
+NC_API                   D  --> END POST (158-byte body)
+NetdEventL...nerService  D  DNS Requested by 143, 10478(com.nutratech.app.android), SUCCESS, 34ms
+SGM:GameManager          D  identifyForegroundApp. com.nutratech.app.android, mCurrentUserId: 0, callerUserId: 0
+NC_API                   D  <-- 423  https://api.nutracheck.com/api/v1/servings (192ms)
+NC_API                   D  Date: Thu, 29 Jan 2026 05:12:50 GMT
+NC_API                   D  Content-Length: 0
+NC_API                   D  Connection: keep-alive
+NC_API                   D  Set-Cookie: JSESSIONID=88196B5E5604DEACE865F61A26CCE002; Path=/; HttpOnly
+NC_API                   D  Content-Language: en-GB
+NC_API                   D  <-- END HTTP (0-byte body)
+Dialog                   I  mIsDeviceDefault = false, mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+DecorView                I  setWindowBackground: isPopOver=false color=0 d=android.graphics.drawable.ColorDrawable@61f79fe
+WindowManager            I  WindowManagerGlobal#addView, ty=2, view=com.android.internal.policy.DecorView{bf5380a V.E...... R.....I. 0,0-0,0}[BottomNavActivity], caller=android.view.WindowManagerImpl.addView:158 android.app.Dialog.show:511 com.nutratech.android.lib.activities.NutratechSecuredActivity.customSubscriptionPopup:31 
+ViewRootImpl             I  dVRR is disabled
+NativeCust...ncyManager  D  [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+SurfaceFlinger           I  id=12863 createSurf, flag=84004, 6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12863
+InputTransport           D  Input channel constructed: '6312836', fd=297
+InsetsController         I  onStateChanged: host=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity, from=android.view.ViewRootImpl.setView:1999, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2400), mDisplayCutout=DisplayCutout{insets=Rect(0, 75 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 569, 75), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.8125} cutoutSpec={M 0, 0 H -10.13333333333333 V 26.66666666666667 H 10.13333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=108, center=Point(108, 108)}, RoundedCorner{position=TopRight, radius=108, center=Point(972, 108)}, RoundedCorner{position=BottomRight, radius=108, center=Point(972, 2292)}, RoundedCorner{position=BottomLeft, radius=108, center=Point(108, 2292)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2400), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 75) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2400 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {97ab0001 mType=navigationBars mFrame=[0,0][0,0] mVisible=true mFlags=SUPPRESS_SCRIM mSideHint=NONE mBoundingRects=null}, InsetsSource: {97ab0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {97ab0005 mType=mandatorySystemGestures mFrame=[0,2325][1080,2400] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {97ab0006 mType=tappableElement mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {97ab0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {b6550000 mType=statusBars mFrame=[0,0][1080,75] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {b6550005 mType=mandatorySystemGestures mFrame=[0,0][1080,111] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {b6550006 mType=tappableElement mFrame=[0,0][1080,75] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,75] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+VRI[Bottom...ty]@38187b  I  synced displayState. AttachInfo displayState=2
+VRI[Bottom...ty]@38187b  I  setView = com.android.internal.policy.DecorView@bf5380a IsHRR=false TM=true
+NC_API                   D  New APi POST onError: message: null
+NC_API                   D  New APi POST onError: errorDetail: responseFromServerError
+NC_API                   D  New APi POST onError: errorBody: 
+SurfaceFlinger           I  [6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12863] attach to parent LayerHierarchy{RequestedLayerState{ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490}#12804 parentId=12758 z=3} 4 children}
+CoreBackPreview          D  Window{6312836 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@e6210a4, mPriority=0, mIsAnimationCallback=false}
+WindowManager            V  Relayout Window{6312836 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}: viewVisibility=0 req=840x1041 ty=2 d0
+SurfaceFlinger           I  id=12864 createSurf, flag=44004, com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12864
+WindowManager            D  makeSurface duration=1 name=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746
+WindowManager            D  Changing focus from Window{abbf025 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity} to Window{6312836 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity} displayId=0 Callers=com.android.server.wm.WindowManagerService.relayoutWindowInner:142 com.android.server.wm.WindowManagerService.relayoutWindow:6 com.android.server.wm.Session.relayout:27 android.view.IWindowSession$Stub.onTransact:861 
+InsetsSourceProvider     D  updateControlForTarget: control=InsetsSourceControl: {b6550000 mType=statusBars initiallyVisible mSurfacePosition=Point(0, 0) mInsetsHint=Insets{left=0, top=75, right=0, bottom=0}}, target=Window{6312836 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}, from=com.android.server.wm.InsetsStateController.onControlTargetChanged:81 com.android.server.wm.InsetsPolicy.updateBarControlTarget:175 com.android.server.wm.DisplayPolicy.updateSystemBarAttributes:269 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:375 com.android.server.wm.WindowManagerService.relayoutWindowInner:142 
+SurfaceFlinger           I  Layer [6312836 com.nutratech.app.android/co[...]d.activities.BottomNavActivity#12863] hidden!! flag(4096)
+SurfaceFlinger           I  [com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12864] attach to parent LayerHierarchy{RequestedLayerState{6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12863 parentId=12804 z=1} 1 children}
+InsetsSourceProvider     D  updateControlForTarget: control=InsetsSourceControl: {97ab0001 mType=navigationBars initiallyVisible mSurfacePosition=Point(0, 2256) mInsetsHint=Insets{left=0, top=0, right=0, bottom=0}}, target=Window{6312836 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}, from=com.android.server.wm.InsetsStateController.onControlTargetChanged:81 com.android.server.wm.InsetsPolicy.updateBarControlTarget:188 com.android.server.wm.DisplayPolicy.updateSystemBarAttributes:269 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:375 com.android.server.wm.WindowManagerService.relayoutWindowInner:142 
+SystemKeyManager         V  updateFocusedWindow() is called, com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+InsetsController         I  onStateChanged: host=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity, from=android.view.ViewRootImpl.relayoutWindow:11304, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2400), mDisplayCutout=DisplayCutout{insets=Rect(0, 75 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(512, 0 - 569, 75), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.8125} cutoutSpec={M 0, 0 H -10.13333333333333 V 26.66666666666667 H 10.13333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=108, center=Point(108, 108)}, RoundedCorner{position=TopRight, radius=108, center=Point(972, 108)}, RoundedCorner{position=BottomRight, radius=108, center=Point(972, 2292)}, RoundedCorner{position=BottomLeft, radius=108, center=Point(108, 2292)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2400), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 75) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2400 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {97ab0001 mType=navigationBars mFrame=[0,0][0,0] mVisible=true mFlags=SUPPRESS_SCRIM mSideHint=NONE mBoundingRects=null}, InsetsSource: {97ab0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {97ab0005 mType=mandatorySystemGestures mFrame=[0,2325][1080,2400] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {97ab0006 mType=tappableElement mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {97ab0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {b6550000 mType=statusBars mFrame=[0,0][1080,75] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {b6550005 mType=mandatorySystemGestures mFrame=[0,0][1080,111] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {b6550006 mType=tappableElement mFrame=[0,0][1080,75] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,75] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+BLASTBufferQueue_Java    I  new BLASTBufferQueue, mName= VRI[BottomNavActivity]@38187b mNativeObject= 0xb4000072bd0d7390 sc.mNativeObject= 0xb4000072cd057510 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3397 android.view.ViewRootImpl.relayoutWindow:11361 android.view.ViewRootImpl.performTraversals:4544 android.view.ViewRootImpl.doTraversal:3708 android.view.ViewRootImpl$TraversalRunnable.run:12542 android.view.Choreographer$CallbackRecord.run:1751 android.view.Choreographer$CallbackRecord.run:1760 android.view.Choreographer.doCallbacks:1216 android.view.Choreographer.doFrame:1142 android.view.Choreographer$FrameDisplayEventReceiver.run:1707 
+BLASTBufferQueue_Java    I  update, w= 840 h= 1041 mName = VRI[BottomNavActivity]@38187b mNativeObject= 0xb4000072bd0d7390 sc.mNativeObject= 0xb4000072cd057510 format= -2 caller= android.graphics.BLASTBufferQueue.<init>:88 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3397 android.view.ViewRootImpl.relayoutWindow:11361 android.view.ViewRootImpl.performTraversals:4544 android.view.ViewRootImpl.doTraversal:3708 android.view.ViewRootImpl$TraversalRunnable.run:12542 
+VRI[Bottom...ty]@38187b  I  Relayout returned: old=(0,75,1080,2400) new=(120,717,960,1758) relayoutAsync=false req=(840,1041)0 dur=10 res=0x3 s={true 0xb4000071ed02dae0} ch=true seqId=0
+VRI[Bottom...ty]@38187b  I  performConfigurationChange setNightDimText nightDimLevel=0
+VRI[Bottom...ty]@38187b  D  mThreadedRenderer.initialize() mSurface={isValid=true 0xb4000071ed02dae0} hwInitialized=true
+VRI[Bottom...ty]@38187b  D  reportNextDraw android.view.ViewRootImpl.performTraversals:5193 android.view.ViewRootImpl.doTraversal:3708 android.view.ViewRootImpl$TraversalRunnable.run:12542 android.view.Choreographer$CallbackRecord.run:1751 android.view.Choreographer$CallbackRecord.run:1760 
+VRI[Bottom...ty]@38187b  D  Setup new sync=wmsSync-VRI[BottomNavActivity]@38187b#14
+VRI[Bottom...ty]@38187b  I  Creating new active sync group VRI[BottomNavActivity]@38187b#15
+VRI[Bottom...ty]@38187b  D  registerCallbacksForSync syncBuffer=false
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{ImeContainer#16 parentId=12804 relativeParentId=12863 z=1} 1 children}] RelativeParent to LayerHierarchy{RequestedLayerState{6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12863 parentId=12804 z=1} 2 children}
+VRI[Bottom...ty]@38187b  D  Received frameDrawingCallback syncResult=0 frameNum=1.
+VRI[Bottom...ty]@38187b  I  mWNT: t=0xb4000071ad1c4bd0 mBlastBufferQueue=0xb4000072bd0d7390 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$11.onFrameDraw:15016 android.view.ThreadedRenderer$1.onFrameDraw:761 <bottom of call stack> 
+VRI[Bottom...ty]@38187b  I  Setting up sync and frameCommitCallback
+BLASTBufferQueue         I  [VRI[BottomNavActivity]@38187b#7](f:0,a:0,s:0) onFrameAvailable the first frame is available
+VRI[Bottom...ty]@38187b  I  Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+SurfaceFlinger           I  [com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12864] setTransactionState with the first frame. bufferData(ID: 59038620450844, frameNumber: 1)
+HWUI                     D  CFMS:: SetUp Pid : 13746    Tid : 13828
+VRI[Bottom...ty]@38187b  D  reportDrawFinished seqId=0
+WindowManager            D  finishDrawingWindow: Window{6312836 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity} mDrawState=DRAW_PENDING seqId=0
+SurfaceFlinger           D  [input] setFocusedWindow: 6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+InputDispatcher          D  Once focus requested (0): 6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+InputDispatcher          D  Focus request (0): 6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity but waiting because NOT_VISIBLE
+InputDispatcher          D  Focus left window (0): abbf025 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+WindowManager            I  Reparenting to leash, surface=Surface(name=6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x2daae09, syncState=0, syncCommitDepth=0, leashParent=Surface(name=ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490})/@0xa79123
+SurfaceFlinger           I  id=12867 createSurf, flag=24004, Surface(name=6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x2daae09 - animation-leash of window_animation#12867
+WindowManager            D  makeSurface duration=1 leash=Surface(name=Surface(name=6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x2daae09 - animation-leash of window_animation)/@0xc19080e
+WindowManager            V  performShowLocked: mDrawState=HAS_DRAWN in Window{6312836 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}
+HWUI                     D  HWUI - treat SMPTE_170M as sRGB
+InsetsSourceConsumer     I  applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+InsetsSourceConsumer     I  applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+ImeFocusController       I  onPreWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+ImeFocusController       I  onPostWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+SurfaceFlinger           I  [Surface(name=6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x2daae09 - animation-leash of window_animation#12867] attach to parent LayerHierarchy{RequestedLayerState{ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490}#12804 parentId=12758 z=3} 5 children}
+SurfaceFlinger           E  alpha changed 1.000 -> 0.000 - Surface(name=6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x2daae09 - animation-leash of window_animation#12867
+SurfaceFlinger           I  Layer [Surface(name=6312836 com.nutratech.a[...]tion-leash of window_animation#12867] hidden!! flag(0)
+SurfaceFlinger           E  alpha changed 0.000 -> 0.000 - Surface(name=6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x2daae09 - animation-leash of window_animation#12867
+SurfaceFlinger           I  Layer [com.nutratech.app.android/com.nutrat[...]ities.BottomNavActivity$_13746#12864] hidden!! flag(0)
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12863 parentId=12867 z=1} 2 children}] reparent to LayerHierarchy{RequestedLayerState{Surface(name=6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x2daae09 - animation-leash of window_animation#12867 parentId=12804 z=1} 1 children}
+SurfaceFlinger           E  alpha changed 0.000 -> 0.169 - Surface(name=6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x2daae09 - animation-leash of window_animation#12867
+SurfaceFlinger           D  Display 4633128672291735937 HWC layers:
+                                   DEVICE |   0xb400007037a23310 | 0001 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |    0    0 1080 2400 | com.nutratech.app.android/com.nutrat[...]ities.BottomNavActivity$_13746#12806 (1183)
+                                   DEVICE |   0xb400007037985950 | 0001 | RGBA_8888    |    0.0    0.0  840.0 1041.0 |  154  759  926 1716 | com.nutratech.app.android/com.nutrat[...]ities.BottomNavActivity$_13746#12864 (2)
+                                   DEVICE |   0xb400007037a27910 | 0001 | RGBA_8888    |    0.0    0.0 1080.0   75.0 |    0    0 1080   75 | StatusBar$_2088#96 (6654)
+                                   DEVICE |   0xb400007037a0d190 | 0001 | RGBA_8888    |    0.0    0.0   67.0  342.0 | 1013  466 1080  808 | com.sec.android.app.launcher/com.sam[...]l.app.CocktailBarService$_2647#12602 (1)
+                                   DEVICE |   0xb400007037a2c290 | 0001 | RGBA_8888    |    0.0    0.0  388.0   60.0 |  692 2340 1080 2400 | SGestureOverlayWindow$_2647#12544 (1)
+                                   DEVICE |   0xb400007037a15bd0 | 0001 | RGBA_8888    |    0.0    0.0 1080.0  144.0 |    0 2256 1080
+InputDispatcher          D  Focus entered window (0): 6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+VRI[Bottom...ty]@38187b  D  mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb4000071ed02dae0}
+InputMethodManagerUtils  D  startInputInner - Id : 0
+InputMethodManager       I  startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+ImeTracker               I  com.nutratech.app.android:bb003792: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+ImeTracker               I  com.nutratech.app.android:bb003792: onCancelled at PHASE_SERVER_SHOULD_HIDE
+SurfaceFlinger           D  Display 4633128672291735937 HWC layers:
+                                   DEVICE |   0xb400007037a0e4d0 | 0001 | RGBA_8888    |    0.0    0.0 1080.0 2400.0 |    0    0 1080 2400 | com.nutratech.app.android/com.nutrat[...]ities.BottomNavActivity$_13746#12806 (1184)
+                              SOLID_COLOR |                      | 0001 | Unknown      |    0.0    0.0    0.0    0.0 |    0    0 1080 2400 | Dim Layer for - Task=1490#12868
+                                   DEVICE |   0xb400007037985950 | 0001 | RGBA_8888    |    0.0    0.0  840.0 1041.0 |  148  752  932 1723 | com.nutratech.app.android/com.nutrat[...]ities.BottomNavActivity$_13746#12864 (2)
+                                   DEVICE |   0xb400007037a27910 | 0001 | RGBA_8888    |    0.0    0.0 1080.0   75.0 |    0    0 1080   75 | StatusBar$_2088#96 (6654)
+                                   DEVICE |   0xb400007037a0d190 | 0001 | RGBA_8888    |    0.0    0.0   67.0  342.0 | 1013  466 1080  808 | com.sec.android.app.launcher/com.sam[...]l.app.CocktailBarService$_2647#12602 (1)
+                                   DEVICE |   0xb400007037a2c290 | 0001 | RGBA_8888    |    0.0    0.0  388.0   60.0 |  692 2340 1080 2400 
+InputTransport           D  Input channel constructed: 'ClientS', fd=312
+InsetsSourceProvider     D  updateControlForTarget: control=InsetsSourceControl: {3 mType=ime mSurfacePosition=Point(0, 75) mInsetsHint=Insets{left=0, top=0, right=0, bottom=1177}}, target=Window{6312836 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity}, from=com.android.server.wm.ImeInsetsSourceProvider.updateControlForTarget:17 com.android.server.wm.InsetsStateController.onControlTargetChanged:81 com.android.server.wm.DisplayContent.updateImeControlTarget:21 com.android.server.wm.DisplayContent.updateImeInputAndControlTarget:81 com.android.server.wm.WindowManagerService$LocalService.updateInputMethodTargetWindow:21 
+HBD                      I  c [AiWriter] setContact : com.nutratech.app.android
+InsetsSourceConsumer     I  applyRequestedVisibilityToControl: visible=false, type=ime, host=com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{ImeContainer#16 parentId=12804 relativeParentId=12863 z=1} 1 children}] RelativeParent to LayerHierarchy{RequestedLayerState{6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12863 parentId=12867 z=1} 3 children}
+WindowManager            I  Reparenting to original parent: Surface(name=ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490})/@0xa79123, destroy=true, syncState=0, syncCommitDepth=0, surface=Surface(name=6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x2daae09
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{Surface(name=6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x2daae09 - animation-leash of window_animation#12867 z=1} 1 children}] reparent to OffscreenRoot
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{Surface(name=6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x2daae09 - animation-leash of window_animation#12867 z=1} 1 children}] RelativeParent to null
+SurfaceFlinger           I  [LayerHierarchy{RequestedLayerState{6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity#12863 parentId=12804 z=1} 3 children}] reparent to LayerHierarchy{RequestedLayerState{ActivityRecord{d9e5153 u0 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity t1490}#12804 parentId=12758 z=3} 4 children}
+SurfaceFlinger           I  id=12867 Removed Surface(name=6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x2daae09 - animation-leash of window_animation#12867 (201)
+SurfaceFlinger           I  destroyed Surface(name=6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x2daae09 - animation-leash of window_animation#12867
+Layer                    I  id=12867 Destroyed Surface(name=6312836 com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity)/@0x2daae09 - animation-leash of window_animation#12867
+SGM:GameManager          D  identifyForegroundApp. com.nutratech.app.android, mCurrentUserId: 0, callerUserId: 0
+LayerHistory             I  com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12864 Max (can't resolve refresh rate)
+LayerHistory             I  com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806 Max (can't resolve refresh rate)
+RenderEngine             D  [SEC_SF_EFFECTS] drawLayersInternal,1313, Rendering layer com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806 at index 1
+RenderEngine             D  [SEC_SF_EFFECTS] drawLayersInternal,1313, Rendering layer com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12864 at index 3
+FreecessController       D  com.nutratech.app.android(10478) is important[18]
+TRuntime.C...ortBackend  I  Making request to: https://firebaselogging-pa.googleapis.com/v1/firelog/legacy/batchlog
+NetdEventL...nerService  D  DNS Requested by 143, 10478(com.nutratech.app.android), SUCCESS, 1ms
+VRI[Bottom...y]@b69a415  I  call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[BottomNavActivity]@b69a415
+SurfaceFlinger           I  [com.nutratech.app.android/com.nutratech.android.activities.BottomNavActivity$_13746#12806] setFrameRateCategory: NoPreference
+TRuntime.C...ortBackend  I  Status Code: 200
+FreecessController       D  com.nutratech.app.android(10478) is important[12]
+VRI[MainAc...y]@693e7e0  I  onDisplayChanged oldDisplayState=2 newDisplayState=2
+VRI[HomeSc...y]@11f4549  I  onDisplayChanged oldDisplayState=2 newDisplayState=2
+VRI[LoginV...r]@f3d4625  I  onDisplayChanged oldDisplayState=2 newDisplayState=2
+VRI[Bottom...y]@b69a415  I  onDisplayChanged oldDisplayState=2 newDisplayState=2
+VRI[Bottom...ty]@38187b  I  onDisplayChanged oldDisplayState=2 newDisplayState=2
+FreecessController       D  com.nutratech.app.android(10478) is important[12]
